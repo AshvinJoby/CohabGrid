@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/AshvinJoby/CohabGrid.git'
+                git branch: 'main', url: 'https://github.com/AshvinJoby/CohabGrid.git'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
         stage('Push to Docker Hub') {
             steps {
                 script {
-                    docker.withRegistry('https://index.docker.io/v1/', docker-hub-cred) {
+                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS) {
                         docker.image("${IMAGE_NAME}:latest").push()
                     }
                 }
