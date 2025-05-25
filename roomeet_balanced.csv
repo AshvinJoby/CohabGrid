@@ -1,0 +1,2001 @@
+Age,Gender,Occupation,Budget Range (in INR),Smoking Preference,Pets,Cleanliness Level,Noise Tolerance,Social Habits,Sleep Schedule,Dietary Preference,Fitness Level,Work-from-Home,Preferred Locations,Commuting Distance (km)
+49,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Koramangala,2
+19,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,HSR Layout,7
+20,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,HSR Layout,2
+28,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,3
+18,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+34,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,3
+18,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,8
+21,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,8
+20,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Whitefield,3
+32,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+22,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,6
+20,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,5
+44,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Whitefield,4
+22,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Koramangala,5
+20,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+49,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,9
+28,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Whitefield,6
+45,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Whitefield,6
+42,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,4
+21,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,5
+26,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,10
+19,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Electronic City,2
+39,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Electronic City,9
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,7
+18,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Sarjapur Road,8
+35,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Electronic City,5
+43,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,9
+20,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,3
+19,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+19,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,2
+34,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,5
+40,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Whitefield,8
+37,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,7
+21,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+22,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,9
+19,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,2
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,6
+22,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,5
+22,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+29,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Whitefield,1
+20,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,3
+18,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,8
+42,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,4
+49,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Sarjapur Road,7
+28,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Electronic City,10
+20,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Electronic City,9
+44,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Electronic City,1
+28,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Koramangala,3
+34,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+21,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,10
+20,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+20,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,5
+21,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,2
+18,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+34,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Whitefield,9
+18,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Electronic City,1
+30,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,3
+19,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,7
+19,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,8
+18,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,1
+21,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Electronic City,8
+19,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,3
+41,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+20,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+22,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,6
+43,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Sarjapur Road,5
+32,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Sarjapur Road,9
+49,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Electronic City,2
+22,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+22,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+26,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,3
+20,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,6
+22,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,3
+19,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Whitefield,9
+22,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,1
+48,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Whitefield,2
+36,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,2
+31,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,4
+22,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,1
+21,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+49,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,3
+21,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,7
+19,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,7
+45,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+31,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Electronic City,6
+22,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+18,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Electronic City,2
+20,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,7
+19,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+18,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+20,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Whitefield,8
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,8
+19,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,1
+20,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,5
+18,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,4
+22,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,6
+41,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Whitefield,8
+21,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,9
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,6
+18,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,4
+20,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,8
+36,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,7
+47,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Koramangala,4
+19,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Koramangala,2
+21,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,7
+21,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,1
+18,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+22,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,3
+22,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,2
+33,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,10
+22,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,Koramangala,2
+18,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,1
+18,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,5
+25,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,4
+21,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,Sarjapur Road,4
+20,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+42,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Electronic City,1
+18,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+25,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Koramangala,9
+28,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Koramangala,4
+19,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,8
+21,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+34,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,1
+29,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,7
+20,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Koramangala,4
+22,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+18,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,1
+36,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,5
+33,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Whitefield,1
+35,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+20,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,3
+21,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,2
+21,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+22,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,3
+40,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,1
+46,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Electronic City,2
+20,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,10
+41,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+21,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,3
+21,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Koramangala,6
+18,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,6
+22,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+18,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,5
+22,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+30,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,HSR Layout,1
+20,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,7
+21,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,9
+19,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,3
+26,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,3
+46,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Koramangala,9
+20,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,5
+37,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Electronic City,9
+30,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Whitefield,1
+22,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Koramangala,2
+22,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+42,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,5
+26,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,5
+34,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,HSR Layout,6
+19,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,1
+19,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,6
+20,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,8
+27,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Electronic City,3
+22,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,3
+38,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Electronic City,6
+33,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Koramangala,4
+20,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+21,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+30,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,HSR Layout,8
+42,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Koramangala,2
+43,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,9
+19,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,3
+35,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Electronic City,3
+20,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,10
+46,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,HSR Layout,6
+20,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,1
+35,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,2
+27,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+20,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Electronic City,1
+28,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,5
+28,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+29,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Sarjapur Road,4
+38,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Electronic City,1
+48,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Whitefield,8
+22,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+20,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Koramangala,4
+21,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,6
+34,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,2
+30,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,8
+27,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,1
+19,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,5
+24,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,4
+18,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,5
+43,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,2
+27,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Electronic City,5
+40,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Electronic City,1
+37,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Sarjapur Road,9
+41,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+22,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,6
+18,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Electronic City,5
+43,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,HSR Layout,5
+25,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Sarjapur Road,3
+21,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+20,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,5
+18,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,5
+35,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+19,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,1
+36,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+42,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,7
+20,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,2
+22,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,2
+47,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,2
+20,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Electronic City,7
+21,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,Koramangala,2
+27,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,3
+18,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+36,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,3
+20,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,8
+19,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,8
+22,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Koramangala,3
+29,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+20,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,6
+18,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+39,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,4
+20,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Whitefield,5
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+27,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,9
+29,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Sarjapur Road,6
+30,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Sarjapur Road,6
+42,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,4
+19,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,5
+38,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Sarjapur Road,10
+18,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,2
+24,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Whitefield,9
+22,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,7
+19,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Electronic City,8
+45,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Sarjapur Road,5
+37,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,9
+19,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Electronic City,3
+18,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,2
+21,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+19,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,2
+42,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,5
+38,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Sarjapur Road,8
+47,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+20,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,9
+22,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Koramangala,2
+18,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,6
+20,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,5
+18,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+48,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Electronic City,1
+21,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,3
+21,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,8
+40,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,7
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,4
+26,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,HSR Layout,7
+39,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,HSR Layout,10
+20,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Whitefield,9
+39,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Koramangala,1
+48,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Koramangala,3
+28,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+19,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+21,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Koramangala,5
+20,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,2
+20,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+29,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Electronic City,9
+19,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,HSR Layout,1
+45,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,3
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,7
+18,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,8
+22,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Sarjapur Road,1
+20,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Electronic City,8
+19,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,3
+35,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+21,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,1
+19,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Whitefield,6
+32,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,5
+31,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Whitefield,9
+26,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Whitefield,2
+19,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+22,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,4
+44,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Whitefield,3
+22,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,6
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,3
+18,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Koramangala,9
+22,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,1
+39,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Koramangala,2
+43,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,2
+47,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,4
+21,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,1
+21,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+48,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,3
+22,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,7
+19,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,7
+32,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,7
+21,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,3
+45,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Electronic City,6
+18,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+20,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,2
+20,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,7
+20,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+18,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+21,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Electronic City,8
+21,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,8
+18,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,1
+20,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,5
+22,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,4
+20,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Electronic City,6
+38,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Sarjapur Road,8
+18,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,9
+18,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,4
+18,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,8
+42,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,7
+32,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Electronic City,4
+20,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,HSR Layout,2
+21,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,7
+22,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Electronic City,1
+22,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,3
+21,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,3
+22,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,2
+41,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,10
+19,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,HSR Layout,2
+18,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,1
+18,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,5
+48,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,4
+20,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,Koramangala,4
+21,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+29,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Koramangala,1
+18,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+28,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,9
+48,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,HSR Layout,4
+19,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,8
+18,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,2
+34,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,1
+35,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,7
+19,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Whitefield,4
+22,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+20,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,1
+40,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,5
+38,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Whitefield,1
+45,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,1
+21,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,3
+20,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,2
+18,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Electronic City,4
+21,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
+34,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,1
+26,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,HSR Layout,2
+21,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,10
+30,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,HSR Layout,4
+20,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,3
+18,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Koramangala,6
+20,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,6
+18,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+18,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,5
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,1
+48,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,1
+22,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Koramangala,7
+18,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,9
+18,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+45,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,3
+33,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Electronic City,9
+19,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,5
+24,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Electronic City,9
+31,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Sarjapur Road,1
+21,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Koramangala,2
+21,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+33,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,5
+44,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Whitefield,5
+44,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Koramangala,6
+18,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,1
+21,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,6
+20,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,8
+43,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Whitefield,3
+20,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,3
+49,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Electronic City,6
+44,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,HSR Layout,4
+19,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+22,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+25,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Electronic City,8
+29,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Sarjapur Road,2
+37,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,9
+19,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,3
+38,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Koramangala,3
+21,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,10
+46,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Whitefield,6
+21,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,1
+28,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,2
+31,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+21,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Electronic City,1
+36,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,5
+31,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,2
+47,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Whitefield,4
+36,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,1
+40,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Whitefield,8
+22,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Koramangala,9
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Whitefield,4
+21,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+27,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Electronic City,2
+25,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,8
+37,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,1
+22,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,5
+28,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,4
+19,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,5
+32,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,2
+38,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+35,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,1
+49,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,9
+25,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,7
+20,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,6
+19,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Sarjapur Road,5
+29,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Sarjapur Road,5
+47,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Koramangala,3
+21,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+22,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+20,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+34,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+21,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,1
+27,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+24,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,7
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Whitefield,2
+18,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Electronic City,2
+33,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Electronic City,2
+21,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Whitefield,7
+19,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,HSR Layout,2
+37,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Koramangala,3
+21,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+26,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,3
+18,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,8
+18,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,8
+22,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Koramangala,3
+31,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+21,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,6
+20,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,HSR Layout,5
+42,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,4
+20,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Koramangala,5
+20,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+35,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Whitefield,9
+44,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,6
+33,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Electronic City,6
+47,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,4
+22,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+34,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,10
+20,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Koramangala,2
+41,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Electronic City,9
+21,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,7
+19,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Whitefield,8
+49,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Whitefield,5
+46,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,9
+20,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,HSR Layout,3
+22,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+21,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+22,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,2
+45,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,5
+43,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Whitefield,8
+31,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,7
+22,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Koramangala,4
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,9
+18,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Whitefield,2
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,6
+20,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Electronic City,5
+20,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+49,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Sarjapur Road,1
+18,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,3
+19,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,8
+36,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,7
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,4
+35,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Electronic City,7
+33,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,HSR Layout,10
+20,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Koramangala,9
+38,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Whitefield,1
+37,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Electronic City,3
+43,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+20,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+22,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,5
+18,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,2
+19,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+46,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Koramangala,9
+22,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Koramangala,1
+30,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Koramangala,3
+19,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,7
+20,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,8
+21,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Whitefield,1
+21,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,HSR Layout,8
+18,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,3
+42,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+18,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,1
+20,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,6
+40,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Koramangala,5
+33,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,HSR Layout,9
+40,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Electronic City,2
+19,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+20,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+19,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+43,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Sarjapur Road,3
+21,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,6
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,3
+19,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,HSR Layout,9
+21,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,1
+47,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Electronic City,2
+39,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,2
+41,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,4
+22,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,1
+20,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+25,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,3
+22,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,7
+19,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,7
+40,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Koramangala,7
+22,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+48,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,6
+21,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,2
+19,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,2
+22,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,7
+20,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+22,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,3
+22,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Koramangala,8
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,8
+20,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,1
+21,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,5
+18,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,4
+19,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,6
+33,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Koramangala,8
+21,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,9
+19,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,4
+21,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,8
+40,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+26,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Whitefield,4
+19,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Koramangala,2
+20,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,7
+19,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,1
+22,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,3
+22,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,3
+21,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,2
+31,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,10
+18,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,HSR Layout,2
+19,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,1
+21,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,5
+28,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,4
+20,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,HSR Layout,4
+21,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+38,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Electronic City,1
+22,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+32,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,9
+45,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,HSR Layout,4
+22,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,8
+18,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+46,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,1
+45,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Koramangala,7
+22,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Electronic City,4
+18,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+22,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,1
+41,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,5
+31,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,HSR Layout,1
+42,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+19,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,3
+19,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,2
+21,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,4
+20,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,3
+48,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Koramangala,1
+40,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Koramangala,2
+21,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,10
+29,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+20,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,3
+18,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Electronic City,6
+21,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,6
+20,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,3
+20,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,5
+22,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+44,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,1
+19,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Sarjapur Road,7
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,9
+18,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,3
+36,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,3
+32,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+21,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,5
+47,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,HSR Layout,9
+43,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,HSR Layout,1
+19,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,HSR Layout,2
+18,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+28,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,5
+49,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,5
+45,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Sarjapur Road,6
+20,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,1
+19,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,6
+21,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+42,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,HSR Layout,3
+22,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+24,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Electronic City,6
+43,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Koramangala,4
+21,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,10
+21,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+30,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Whitefield,8
+45,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Koramangala,2
+43,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Electronic City,9
+22,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+44,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Sarjapur Road,3
+20,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,10
+27,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,HSR Layout,6
+22,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,1
+32,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Electronic City,2
+49,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+21,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Electronic City,1
+48,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,5
+35,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,2
+28,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Sarjapur Road,4
+24,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,1
+38,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Whitefield,8
+22,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+21,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Whitefield,4
+22,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,6
+26,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Electronic City,2
+42,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,8
+38,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,1
+22,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Whitefield,5
+38,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,4
+22,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+40,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,2
+40,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,3
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,5
+29,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Electronic City,1
+40,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Whitefield,9
+49,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+18,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,6
+18,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Electronic City,5
+45,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,5
+37,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Koramangala,3
+20,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,3
+20,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+20,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,5
+44,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+19,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,1
+38,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Koramangala,1
+32,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,7
+21,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Electronic City,2
+18,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Electronic City,2
+26,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,2
+18,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Koramangala,7
+20,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,Electronic City,2
+25,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,3
+21,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+40,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,HSR Layout,3
+21,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,8
+19,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Electronic City,8
+18,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Whitefield,3
+40,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+19,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,6
+19,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,5
+31,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Whitefield,4
+22,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Whitefield,5
+20,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+49,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Koramangala,9
+44,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,6
+25,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,HSR Layout,6
+41,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,4
+20,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+29,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,10
+22,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,2
+46,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Electronic City,9
+20,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,7
+19,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,HSR Layout,8
+47,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Sarjapur Road,5
+48,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Koramangala,9
+19,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Whitefield,3
+19,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,2
+20,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,2
+35,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Koramangala,5
+41,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,8
+43,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,7
+19,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+21,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,9
+19,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,2
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,6
+18,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Whitefield,5
+20,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,5
+33,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,1
+19,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,3
+22,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,8
+44,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+22,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,4
+33,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Whitefield,7
+49,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Koramangala,10
+22,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,HSR Layout,9
+41,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,HSR Layout,1
+46,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Sarjapur Road,3
+46,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+21,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+18,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,5
+22,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,2
+22,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+40,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,HSR Layout,9
+19,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Sarjapur Road,1
+32,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,3
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,7
+22,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,8
+21,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Electronic City,1
+18,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,HSR Layout,8
+21,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,3
+49,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+22,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,1
+18,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,6
+32,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,5
+33,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,HSR Layout,9
+41,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,2
+20,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+22,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+47,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Sarjapur Road,3
+22,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,6
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,3
+19,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Whitefield,9
+22,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,1
+45,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,2
+38,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,2
+40,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,4
+19,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,1
+20,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+27,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
+21,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,7
+22,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,7
+38,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,7
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+40,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,6
+19,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+18,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,2
+18,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,7
+22,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,4
+21,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,3
+19,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Koramangala,8
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,8
+20,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,1
+21,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,5
+20,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,4
+21,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,HSR Layout,6
+35,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Koramangala,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,9
+22,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,6
+18,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,4
+20,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,Electronic City,8
+49,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+29,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Electronic City,4
+19,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+19,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Electronic City,7
+18,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Electronic City,1
+18,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,3
+18,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,3
+18,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,2
+48,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,10
+20,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,Sarjapur Road,2
+22,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Whitefield,1
+21,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,5
+46,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Koramangala,4
+20,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,HSR Layout,4
+22,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,2
+30,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Electronic City,1
+21,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Electronic City,4
+28,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,9
+47,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Whitefield,4
+22,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,8
+20,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+27,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,1
+28,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,7
+21,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,HSR Layout,4
+19,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+22,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,1
+32,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,5
+26,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Koramangala,1
+24,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+21,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,3
+18,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,2
+20,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+19,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,3
+49,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,1
+49,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Sarjapur Road,2
+18,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,10
+32,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,HSR Layout,4
+20,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,3
+18,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Whitefield,6
+21,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,6
+19,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,3
+18,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,5
+18,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+27,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,Koramangala,1
+19,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Sarjapur Road,7
+21,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,9
+21,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+45,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,3
+33,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+20,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,5
+35,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,HSR Layout,9
+29,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Koramangala,1
+22,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Koramangala,2
+18,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,3
+35,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Koramangala,5
+24,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Koramangala,5
+38,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Whitefield,6
+19,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,1
+20,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,6
+19,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,8
+37,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,HSR Layout,3
+20,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,3
+49,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,6
+45,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Koramangala,4
+19,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+22,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+37,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,8
+39,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,2
+29,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,9
+18,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+32,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Sarjapur Road,3
+19,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,10
+27,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Koramangala,6
+18,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,1
+26,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Whitefield,2
+36,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+21,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Sarjapur Road,1
+47,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,5
+41,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,HSR Layout,2
+48,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Electronic City,4
+38,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,1
+31,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Sarjapur Road,8
+20,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Whitefield,9
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Whitefield,4
+22,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+32,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,2
+33,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,8
+24,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,1
+21,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Koramangala,5
+28,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,4
+21,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,5
+47,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,2
+43,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Koramangala,3
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+44,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,1
+27,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Sarjapur Road,9
+35,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,7
+21,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,6
+20,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,HSR Layout,5
+30,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,5
+34,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,HSR Layout,3
+21,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,3
+22,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,5
+18,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,5
+45,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,1
+31,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,1
+33,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,7
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Koramangala,2
+21,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,2
+42,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Whitefield,2
+19,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,HSR Layout,7
+22,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,Sarjapur Road,2
+46,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,3
+19,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+25,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Sarjapur Road,3
+22,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Electronic City,8
+20,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Electronic City,8
+19,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Sarjapur Road,3
+42,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,HSR Layout,2
+20,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,6
+19,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+47,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,4
+20,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Electronic City,5
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+35,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,HSR Layout,9
+41,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,6
+32,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Koramangala,6
+39,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,4
+20,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,HSR Layout,5
+31,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,10
+20,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,2
+33,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Whitefield,9
+21,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Electronic City,7
+19,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Koramangala,8
+30,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,HSR Layout,5
+24,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,9
+19,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Electronic City,3
+20,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,2
+19,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,HSR Layout,2
+20,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,2
+26,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,5
+42,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,8
+39,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+19,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+22,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,9
+20,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Electronic City,2
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,6
+18,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+22,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+25,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Whitefield,1
+22,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Koramangala,3
+19,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Whitefield,8
+48,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,4
+36,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Electronic City,7
+35,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Sarjapur Road,10
+20,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Whitefield,9
+37,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Whitefield,1
+25,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Koramangala,3
+45,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,5
+22,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,10
+18,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+21,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Electronic City,5
+19,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,2
+21,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+44,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Electronic City,9
+20,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,1
+31,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,3
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,7
+18,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,8
+22,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Sarjapur Road,1
+21,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Sarjapur Road,8
+18,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,3
+35,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+21,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,1
+18,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Whitefield,6
+25,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,5
+48,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Whitefield,9
+43,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Koramangala,2
+21,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,4
+22,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+44,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Whitefield,3
+20,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,6
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+18,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Koramangala,9
+22,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,1
+35,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Whitefield,2
+32,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,2
+39,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,4
+22,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,1
+19,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+49,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,3
+19,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,7
+21,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,7
+29,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+22,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,3
+27,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Koramangala,6
+21,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+18,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,2
+22,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,7
+22,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+20,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,3
+22,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Whitefield,8
+18,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,8
+19,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,1
+19,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,5
+22,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,4
+18,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,6
+31,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Whitefield,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,9
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,4
+22,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,8
+25,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,7
+34,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Koramangala,4
+19,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+20,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,7
+18,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,1
+22,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,3
+18,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,Sarjapur Road,3
+18,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,2
+44,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,10
+19,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,Sarjapur Road,2
+22,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,1
+19,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,5
+47,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Koramangala,4
+20,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,Whitefield,4
+22,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,Whitefield,2
+40,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,HSR Layout,1
+22,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+42,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,9
+24,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Koramangala,4
+20,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,2
+36,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,1
+48,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,7
+18,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Koramangala,4
+19,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+18,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,1
+45,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,5
+41,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Whitefield,1
+26,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+18,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,3
+21,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,2
+21,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+19,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Electronic City,3
+25,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Koramangala,1
+38,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Sarjapur Road,2
+20,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Electronic City,10
+35,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Whitefield,4
+18,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,3
+21,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Koramangala,6
+22,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,6
+19,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+18,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,5
+21,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+48,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,HSR Layout,1
+19,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,7
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,9
+20,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+48,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,3
+35,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,HSR Layout,9
+18,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+44,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,HSR Layout,9
+47,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,HSR Layout,1
+22,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Sarjapur Road,2
+20,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+41,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,5
+31,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,5
+37,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Electronic City,6
+18,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,1
+21,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,6
+18,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,8
+27,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Whitefield,3
+18,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,Whitefield,3
+49,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,6
+30,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,HSR Layout,4
+21,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+18,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+44,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,HSR Layout,8
+32,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Sarjapur Road,2
+32,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,9
+19,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+42,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Electronic City,3
+19,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,10
+36,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Sarjapur Road,6
+20,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,1
+36,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Electronic City,2
+38,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+22,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,HSR Layout,1
+41,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,5
+26,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+43,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Whitefield,4
+29,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,1
+37,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,HSR Layout,8
+18,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Koramangala,9
+18,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,4
+18,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,6
+28,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Electronic City,2
+48,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,8
+25,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,1
+22,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Koramangala,5
+27,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,4
+19,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,5
+27,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,2
+49,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Koramangala,3
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Electronic City,5
+27,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,1
+45,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,9
+33,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,7
+20,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,6
+21,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Sarjapur Road,5
+36,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,5
+47,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,HSR Layout,3
+21,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+21,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+19,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,5
+27,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+21,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,1
+26,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+41,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,7
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Koramangala,2
+22,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,2
+47,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,HSR Layout,2
+18,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Koramangala,7
+18,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,HSR Layout,2
+27,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,3
+18,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+47,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Sarjapur Road,3
+18,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,8
+19,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,8
+20,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Sarjapur Road,3
+26,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+19,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,6
+19,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,HSR Layout,5
+40,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,4
+19,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,HSR Layout,5
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+27,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Electronic City,9
+29,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,6
+46,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Sarjapur Road,6
+32,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,4
+20,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+41,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,10
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,2
+40,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Whitefield,9
+18,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Koramangala,7
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Sarjapur Road,8
+47,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Whitefield,5
+26,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Electronic City,9
+20,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,HSR Layout,3
+18,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+19,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,2
+32,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,5
+32,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,8
+29,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,7
+22,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,9
+22,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,2
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Electronic City,6
+19,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+22,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+40,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Koramangala,1
+20,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,3
+19,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Sarjapur Road,8
+36,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,7
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,4
+28,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Sarjapur Road,7
+45,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Electronic City,10
+18,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,HSR Layout,9
+38,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Sarjapur Road,1
+37,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Koramangala,3
+49,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+21,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+18,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+19,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,2
+18,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,2
+32,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Whitefield,9
+22,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Koramangala,1
+49,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,7
+22,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,8
+18,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Sarjapur Road,1
+20,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Sarjapur Road,8
+21,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,3
+30,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+20,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,1
+21,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,6
+37,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,5
+32,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,HSR Layout,9
+26,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Koramangala,2
+21,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+20,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+29,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Electronic City,3
+18,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,6
+20,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+19,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Koramangala,9
+20,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,1
+30,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Electronic City,2
+45,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,2
+24,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,4
+19,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,1
+19,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+24,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
+18,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,7
+21,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,7
+40,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,7
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,3
+49,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,6
+20,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,2
+21,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,2
+18,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,7
+20,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+18,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,3
+18,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Whitefield,8
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,8
+20,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,1
+19,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,5
+21,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,4
+21,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,6
+36,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Koramangala,8
+22,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,9
+18,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,6
+21,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,4
+18,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+26,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+42,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Koramangala,4
+18,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+18,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,7
+19,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,1
+20,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,3
+18,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,3
+21,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,2
+29,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,10
+20,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,Sarjapur Road,2
+22,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,1
+20,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,5
+32,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Electronic City,4
+21,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,HSR Layout,4
+21,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,2
+34,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Koramangala,1
+22,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Electronic City,4
+48,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,9
+38,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Sarjapur Road,4
+18,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,8
+22,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+44,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,1
+49,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,7
+22,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Whitefield,4
+19,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,2
+19,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,1
+46,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,5
+43,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,HSR Layout,1
+26,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+18,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,3
+21,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,2
+19,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Koramangala,4
+21,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
+34,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,1
+42,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Sarjapur Road,2
+22,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,10
+26,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,4
+18,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,3
+18,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Whitefield,6
+21,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,6
+20,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,3
+20,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,5
+19,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,1
+47,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,HSR Layout,1
+21,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Sarjapur Road,7
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,9
+22,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+25,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,3
+38,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+20,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,5
+43,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Koramangala,9
+43,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Sarjapur Road,1
+19,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Whitefield,2
+18,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+28,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,5
+46,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Electronic City,5
+34,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,HSR Layout,6
+18,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,1
+19,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,6
+20,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+26,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,HSR Layout,3
+21,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+39,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,6
+41,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Sarjapur Road,4
+22,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,10
+18,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+41,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Whitefield,8
+43,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Whitefield,2
+32,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,9
+20,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,3
+38,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Electronic City,3
+20,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,10
+24,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Whitefield,6
+22,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Electronic City,1
+48,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Electronic City,2
+41,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+18,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Whitefield,1
+38,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,5
+39,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+43,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Koramangala,4
+44,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,1
+33,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Electronic City,8
+21,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Whitefield,9
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Whitefield,4
+21,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+40,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,2
+28,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,8
+32,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,1
+18,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,5
+24,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Koramangala,4
+20,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,5
+28,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,2
+39,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+19,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,5
+29,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,1
+43,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Electronic City,9
+40,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,7
+19,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,6
+20,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Electronic City,5
+40,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,5
+42,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Electronic City,3
+18,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+22,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+21,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+45,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+19,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,1
+37,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Electronic City,1
+29,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Sarjapur Road,7
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,2
+19,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,2
+40,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Electronic City,2
+22,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,HSR Layout,7
+22,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,Koramangala,2
+39,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,3
+22,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+26,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,HSR Layout,3
+22,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,8
+20,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,8
+21,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Sarjapur Road,3
+25,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,2
+19,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,6
+18,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,HSR Layout,5
+48,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,4
+18,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Koramangala,5
+22,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+47,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,9
+38,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Koramangala,6
+25,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Koramangala,6
+44,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,4
+20,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,HSR Layout,5
+43,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,10
+19,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Koramangala,2
+25,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Koramangala,9
+18,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Electronic City,7
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Koramangala,8
+34,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Koramangala,5
+32,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Electronic City,9
+18,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,3
+21,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+21,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,2
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,2
+45,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,5
+43,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,8
+33,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+21,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Koramangala,4
+18,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,9
+18,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,2
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,6
+19,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+18,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+44,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Koramangala,1
+22,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,3
+18,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Whitefield,8
+38,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,4
+49,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Electronic City,7
+40,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Koramangala,10
+22,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Sarjapur Road,9
+48,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Electronic City,1
+30,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Sarjapur Road,3
+31,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+20,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,10
+22,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+19,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Koramangala,5
+18,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,2
+21,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+38,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Koramangala,9
+22,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,1
+42,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+20,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,7
+21,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,8
+21,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,HSR Layout,1
+21,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Whitefield,8
+18,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,3
+24,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+21,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,1
+19,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,6
+37,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Koramangala,5
+32,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Koramangala,9
+44,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Whitefield,2
+18,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,4
+18,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+22,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+32,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,Sarjapur Road,3
+22,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,6
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,3
+18,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Koramangala,9
+21,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,1
+48,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Electronic City,2
+27,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,2
+25,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,4
+22,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,1
+22,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+29,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,3
+22,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+20,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,7
+37,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,7
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,3
+31,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Koramangala,6
+21,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+21,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+20,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,7
+19,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+22,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,3
+20,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Sarjapur Road,8
+18,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,8
+18,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,1
+22,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Electronic City,5
+22,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,4
+22,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Koramangala,6
+24,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,HSR Layout,8
+22,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,9
+18,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,4
+20,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+47,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,7
+40,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Sarjapur Road,4
+22,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+20,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,7
+21,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,1
+21,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,3
+20,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,3
+21,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,2
+26,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,10
+22,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,HSR Layout,2
+19,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,1
+22,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,5
+27,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Koramangala,4
+20,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,HSR Layout,4
+22,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+36,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Sarjapur Road,1
+21,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+36,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,9
+42,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Electronic City,4
+19,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+38,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,1
+25,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,7
+19,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Electronic City,4
+18,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,2
+18,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,1
+28,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,5
+26,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Koramangala,1
+41,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+19,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,3
+22,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,2
+19,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,4
+21,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,3
+43,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Koramangala,1
+39,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,HSR Layout,2
+18,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,10
+28,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Whitefield,4
+22,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,3
+20,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Whitefield,6
+21,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,6
+21,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+20,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,5
+22,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,1
+37,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,Whitefield,1
+19,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Electronic City,7
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,9
+19,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,3
+42,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Electronic City,3
+49,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Koramangala,9
+18,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Electronic City,5
+44,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Koramangala,9
+44,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,1
+20,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Electronic City,2
+22,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+42,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,5
+30,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Electronic City,5
+30,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,HSR Layout,6
+22,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,1
+22,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,6
+22,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,8
+45,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Koramangala,3
+21,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,Electronic City,3
+43,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,6
+34,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Sarjapur Road,4
+22,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,10
+22,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+48,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,8
+24,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,2
+42,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,9
+22,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,3
+40,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Whitefield,3
+22,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,10
+26,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Whitefield,6
+18,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,1
+45,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,2
+37,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+18,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Koramangala,1
+28,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,5
+32,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+37,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,HSR Layout,4
+31,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,1
+39,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Electronic City,8
+19,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Electronic City,9
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,4
+21,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+28,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,2
+28,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Whitefield,8
+27,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,1
+20,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Electronic City,5
+30,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Sarjapur Road,4
+22,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,5
+46,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,2
+31,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,3
+22,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+46,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Electronic City,1
+43,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,9
+26,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Electronic City,7
+21,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Koramangala,6
+18,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,HSR Layout,5
+49,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,5
+27,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Koramangala,3
+20,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+19,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Koramangala,5
+18,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,5
+31,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Koramangala,1
+21,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,1
+30,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,Whitefield,1
+29,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Electronic City,7
+21,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,2
+21,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,2
+49,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Koramangala,2
+20,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Electronic City,7
+19,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,Whitefield,2
+28,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,3
+19,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,9
+33,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Electronic City,3
+21,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Koramangala,8
+21,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Electronic City,8
+21,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Electronic City,3
+27,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+19,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Whitefield,6
+21,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Koramangala,5
+48,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,HSR Layout,4
+20,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,HSR Layout,5
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+46,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Sarjapur Road,9
+28,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,Electronic City,6
+47,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,HSR Layout,6
+40,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,4
+19,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,5
+26,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,10
+18,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,2
+47,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Koramangala,9
+20,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,7
+18,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Electronic City,8
+27,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Whitefield,5
+41,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Electronic City,9
+21,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Koramangala,3
+20,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+22,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,HSR Layout,2
+19,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,2
+32,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,5
+38,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,8
+35,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,7
+19,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,HSR Layout,4
+18,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,9
+21,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Electronic City,2
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,6
+20,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,5
+21,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,5
+40,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Whitefield,1
+20,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,HSR Layout,3
+21,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Koramangala,8
+39,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,7
+18,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,4
+34,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Sarjapur Road,7
+42,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Sarjapur Road,10
+18,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,Koramangala,9
+29,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Koramangala,1
+30,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,Sarjapur Road,3
+36,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,5
+19,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+21,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,5
+18,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,2
+18,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,2
+24,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Electronic City,9
+21,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Electronic City,1
+36,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,3
+20,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,7
+21,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Whitefield,8
+19,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,HSR Layout,1
+22,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Whitefield,8
+20,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,3
+34,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+19,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,1
+21,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,HSR Layout,6
+45,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Sarjapur Road,5
+39,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Electronic City,9
+32,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,Electronic City,2
+21,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+18,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+40,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,3
+19,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,6
+20,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+19,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Whitefield,9
+18,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,1
+37,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,2
+24,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Sarjapur Road,2
+43,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,4
+22,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,1
+20,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+39,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,3
+18,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,7
+22,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,7
+31,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,7
+22,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+29,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,6
+20,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+21,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,2
+20,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,7
+19,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,4
+20,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,3
+18,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Koramangala,8
+20,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,8
+19,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,1
+19,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,5
+20,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,4
+21,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Electronic City,6
+27,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,Sarjapur Road,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,9
+18,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,4
+22,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+40,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,7
+38,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Whitefield,4
+21,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Electronic City,2
+20,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,7
+20,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,1
+19,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Electronic City,3
+19,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,Whitefield,3
+19,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,2
+48,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,10
+19,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,Whitefield,2
+19,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,1
+21,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,5
+35,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,4
+21,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,Sarjapur Road,4
+18,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,Koramangala,2
+48,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Whitefield,1
+19,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,4
+25,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,9
+44,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Whitefield,4
+18,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,8
+19,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+38,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,1
+42,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Sarjapur Road,7
+18,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Electronic City,4
+20,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+19,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,1
+48,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,HSR Layout,5
+46,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Sarjapur Road,1
+30,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Koramangala,1
+19,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,3
+22,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,2
+18,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,HSR Layout,4
+20,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
+39,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,1
+28,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Sarjapur Road,2
+19,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,10
+32,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Koramangala,4
+19,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,3
+18,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,Whitefield,6
+20,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,6
+18,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,3
+20,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,5
+18,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,1
+48,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,HSR Layout,1
+18,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,7
+18,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,9
+19,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+48,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,3
+35,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Electronic City,9
+19,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Electronic City,5
+34,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Electronic City,9
+33,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Koramangala,1
+22,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,HSR Layout,2
+19,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,3
+24,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,5
+39,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Electronic City,5
+40,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Whitefield,6
+18,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,1
+18,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,6
+22,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,8
+26,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,HSR Layout,3
+21,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,Whitefield,3
+33,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,6
+26,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Whitefield,4
+21,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+21,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+47,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Koramangala,8
+49,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,Electronic City,2
+38,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Electronic City,9
+21,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,3
+25,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Whitefield,3
+22,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,10
+40,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Sarjapur Road,6
+21,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,1
+36,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Koramangala,2
+39,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Koramangala,5
+18,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Koramangala,1
+36,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,5
+42,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Koramangala,2
+47,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Electronic City,4
+45,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,1
+38,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Sarjapur Road,8
+21,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Whitefield,9
+22,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,4
+19,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,6
+48,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Koramangala,2
+27,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Koramangala,8
+45,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,1
+22,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Koramangala,5
+48,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,Koramangala,4
+20,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+45,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,2
+45,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,3
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,Koramangala,5
+46,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,1
+40,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Koramangala,9
+38,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,7
+19,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,6
+21,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Sarjapur Road,5
+45,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,5
+40,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Whitefield,3
+20,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,3
+22,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+21,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,5
+33,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,1
+22,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,1
+47,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+27,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Sarjapur Road,7
+22,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Whitefield,2
+21,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,2
+41,Female,Professional,26000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,Yes,Koramangala,2
+20,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Koramangala,7
+20,Female,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,1,No,HSR Layout,2
+48,Female,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Koramangala,3
+22,Female,Student,5000,Yes,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+31,Female,Professional,24000,Yes,No,1,Quiet,Extroverted,Night Owl,Vegetarian,3,Yes,Electronic City,3
+19,Male,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,8
+18,Male,Student,11000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,8
+20,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,Electronic City,3
+48,Male,Professional,25000,No,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,2
+21,Male,Student,10000,No,Yes,2,Quiet,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,6
+22,Male,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Electronic City,5
+41,Female,Professional,24000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,4
+22,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Electronic City,5
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+47,Male,Professional,24000,No,Yes,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Koramangala,9
+35,Male,Professional,21000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,5,No,HSR Layout,6
+25,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Sarjapur Road,6
+33,Female,Professional,26000,No,No,4,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Koramangala,4
+22,Male,Student,8000,No,Yes,1,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,5
+28,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,10
+21,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Whitefield,2
+35,Male,Professional,23000,No,No,5,Quiet,Extroverted,Flexible,Vegetarian,3,Yes,Koramangala,9
+19,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,1,No,Whitefield,7
+21,Female,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,2,No,Whitefield,8
+38,Male,Professional,28000,No,Yes,4,Loud,Introverted,Early Bird,Vegetarian,5,No,Sarjapur Road,5
+45,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,9
+18,Female,Student,9000,No,Yes,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,3
+22,Male,Student,14000,No,No,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,2,No,Whitefield,2
+19,Male,Student,14000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,2,No,HSR Layout,2
+19,Male,Student,12000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,2
+30,Female,Professional,27000,Yes,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,Yes,HSR Layout,5
+39,Male,Professional,23000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,5,No,Sarjapur Road,8
+27,Female,Professional,28000,No,Yes,5,Moderate,Extroverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,7
+18,Female,Student,12000,No,No,1,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,9
+19,Female,Student,15000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Koramangala,2
+22,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,HSR Layout,6
+21,Female,Student,12000,No,No,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,5
+20,Male,Student,7000,Yes,Yes,1,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+46,Female,Professional,27000,Yes,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,HSR Layout,1
+19,Female,Student,6000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Koramangala,3
+19,Female,Student,13000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,Whitefield,8
+45,Female,Professional,28000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+22,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,1,No,HSR Layout,4
+35,Female,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Vegetarian,4,No,HSR Layout,7
+49,Male,Professional,23000,No,No,5,Quiet,Introverted,Flexible,Vegetarian,4,No,Koramangala,10
+18,Male,Student,10000,Yes,No,2,Moderate,Introverted,Early Bird,Vegetarian,2,No,HSR Layout,9
+38,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Sarjapur Road,1
+27,Female,Professional,24000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,5,Yes,HSR Layout,3
+27,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,5
+19,Female,Student,10000,No,Yes,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,10
+19,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+22,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+21,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,2
+19,Female,Student,11000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,2
+44,Female,Professional,27000,No,No,3,Quiet,Extroverted,Early Bird,Vegetarian,3,Yes,Whitefield,9
+21,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,Electronic City,1
+30,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Sarjapur Road,3
+20,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,7
+21,Male,Student,14000,No,Yes,2,Loud,Introverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,8
+21,Male,Student,7000,No,Yes,3,Moderate,Introverted,Flexible,Vegetarian,3,No,HSR Layout,1
+21,Male,Student,12000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,1,No,Electronic City,8
+18,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,3
+24,Female,Professional,25000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,5
+21,Female,Student,8000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,1
+19,Female,Student,8000,No,Yes,1,Moderate,Extroverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,6
+33,Female,Professional,29000,Yes,Yes,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Whitefield,5
+26,Female,Professional,20000,No,No,3,Quiet,Extroverted,Night Owl,Vegetarian,4,No,Sarjapur Road,9
+40,Male,Professional,27000,No,No,4,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,2
+19,Male,Student,8000,No,No,1,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,4
+20,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+21,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+41,Female,Professional,25000,No,No,4,Quiet,Introverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,3
+21,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,6
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,3
+21,Female,Student,6000,No,No,2,Moderate,Extroverted,Flexible,Non-Vegetarian,1,No,Sarjapur Road,9
+20,Male,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,HSR Layout,1
+25,Female,Professional,26000,No,Yes,3,Quiet,Introverted,Early Bird,Non-Vegetarian,4,No,Whitefield,2
+32,Female,Professional,29000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Koramangala,2
+47,Male,Professional,29000,Yes,Yes,4,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,4
+18,Male,Student,15000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,1
+18,Male,Student,8000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+43,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,3
+20,Male,Student,8000,No,No,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,7
+20,Female,Student,15000,No,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,7
+37,Male,Professional,23000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Sarjapur Road,7
+20,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+48,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,6
+22,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+21,Male,Student,13000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,2
+20,Male,Student,13000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Whitefield,7
+19,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Koramangala,4
+22,Male,Student,13000,No,Yes,3,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,3
+19,Male,Student,6000,No,Yes,3,Quiet,Extroverted,Night Owl,Vegetarian,1,No,Koramangala,8
+18,Male,Student,11000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,8
+21,Female,Student,12000,No,No,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,1
+18,Female,Student,11000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,5
+18,Male,Student,10000,No,Yes,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,4
+18,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,6
+38,Male,Professional,29000,No,No,3,Moderate,Introverted,Night Owl,Vegetarian,3,Yes,HSR Layout,8
+18,Male,Student,10000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Whitefield,9
+19,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+19,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,4
+19,Male,Student,12000,No,Yes,3,Quiet,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,8
+30,Male,Professional,26000,No,Yes,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,7
+43,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,HSR Layout,4
+18,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Whitefield,2
+19,Male,Student,12000,No,Yes,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Sarjapur Road,7
+22,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,1,No,Sarjapur Road,1
+18,Male,Student,7000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,3
+19,Male,Student,9000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,3,No,Koramangala,3
+21,Male,Student,7000,No,Yes,2,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,2
+45,Female,Professional,26000,No,No,3,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,10
+18,Male,Student,14000,No,No,1,Quiet,Extroverted,Flexible,Vegetarian,1,No,HSR Layout,2
+21,Male,Student,6000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,2,No,Electronic City,1
+19,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,5
+36,Male,Professional,22000,No,No,4,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,4
+22,Female,Student,6000,No,No,2,Quiet,Extroverted,Night Owl,Vegetarian,2,No,Electronic City,4
+20,Female,Student,13000,No,Yes,1,Quiet,Extroverted,Flexible,Non-Vegetarian,2,No,Electronic City,2
+32,Female,Professional,20000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,4,No,Whitefield,1
+18,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Whitefield,4
+36,Male,Professional,26000,Yes,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,HSR Layout,9
+32,Male,Professional,30000,No,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,No,Whitefield,4
+22,Male,Student,7000,Yes,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,8
+21,Male,Student,10000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Electronic City,2
+33,Female,Professional,24000,No,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,1
+38,Female,Professional,21000,No,Yes,2,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,7
+19,Female,Student,7000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,2,No,Koramangala,4
+22,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,HSR Layout,2
+22,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,HSR Layout,1
+30,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Electronic City,5
+49,Male,Professional,26000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,No,Whitefield,1
+47,Female,Professional,26000,No,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,Koramangala,1
+19,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Electronic City,3
+19,Female,Student,7000,No,Yes,1,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,2
+20,Female,Student,7000,No,Yes,2,Loud,Extroverted,Night Owl,Vegetarian,3,No,HSR Layout,4
+21,Female,Student,8000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Whitefield,3
+32,Male,Professional,24000,No,No,5,Moderate,Extroverted,Early Bird,Non-Vegetarian,4,Yes,Electronic City,1
+42,Male,Professional,28000,No,Yes,5,Moderate,Introverted,Flexible,Non-Vegetarian,3,Yes,Electronic City,2
+18,Male,Student,10000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Koramangala,10
+46,Female,Professional,21000,Yes,Yes,5,Moderate,Introverted,Night Owl,Vegetarian,3,No,Electronic City,4
+18,Male,Student,12000,No,Yes,2,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Sarjapur Road,3
+22,Female,Student,9000,No,No,1,Moderate,Introverted,Flexible,Vegetarian,1,No,HSR Layout,6
+18,Male,Student,15000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,1,No,Whitefield,6
+20,Female,Student,10000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Koramangala,3
+18,Male,Student,8000,No,No,1,Quiet,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,5
+22,Male,Student,11000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,1
+47,Male,Professional,26000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,5,No,Electronic City,1
+20,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Whitefield,7
+21,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Electronic City,9
+19,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+45,Male,Professional,24000,No,Yes,3,Quiet,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,3
+26,Female,Professional,22000,No,No,2,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+19,Female,Student,8000,No,No,1,Quiet,Introverted,Early Bird,Vegetarian,1,No,Koramangala,5
+42,Male,Professional,29000,No,No,4,Quiet,Extroverted,Flexible,Non-Vegetarian,3,No,Koramangala,9
+30,Male,Professional,22000,No,No,2,Moderate,Extroverted,Early Bird,Vegetarian,5,No,Sarjapur Road,1
+18,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Sarjapur Road,2
+20,Female,Student,12000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+41,Female,Professional,25000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,5
+26,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Koramangala,5
+42,Female,Professional,21000,Yes,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,4,No,Electronic City,6
+21,Male,Student,6000,No,No,3,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,1
+20,Male,Student,9000,Yes,No,3,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,Electronic City,6
+19,Male,Student,9000,No,Yes,1,Quiet,Extroverted,Early Bird,Vegetarian,3,No,Electronic City,8
+41,Male,Professional,24000,Yes,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,Sarjapur Road,3
+20,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,3
+37,Female,Professional,22000,No,No,1,Loud,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,6
+46,Female,Professional,21000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,No,Koramangala,4
+18,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Koramangala,10
+21,Male,Student,12000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+44,Male,Professional,29000,No,No,2,Loud,Extroverted,Night Owl,Vegetarian,5,Yes,Sarjapur Road,8
+30,Female,Professional,24000,Yes,No,4,Moderate,Extroverted,Early Bird,Non-Vegetarian,5,No,HSR Layout,2
+42,Male,Professional,28000,Yes,No,1,Quiet,Introverted,Early Bird,Vegetarian,3,No,Koramangala,9
+22,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,3
+47,Female,Professional,21000,Yes,No,3,Quiet,Introverted,Night Owl,Vegetarian,5,No,Whitefield,3
+21,Male,Student,12000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,10
+35,Female,Professional,29000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,HSR Layout,6
+19,Male,Student,14000,No,No,3,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,1
+32,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Electronic City,2
+31,Male,Professional,20000,No,No,2,Moderate,Introverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+20,Male,Student,10000,No,Yes,1,Quiet,Introverted,Early Bird,Vegetarian,2,No,Electronic City,1
+42,Male,Professional,25000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,4,Yes,Whitefield,5
+32,Female,Professional,27000,No,Yes,4,Moderate,Introverted,Night Owl,Non-Vegetarian,4,Yes,Whitefield,2
+41,Female,Professional,28000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,Yes,Whitefield,4
+42,Male,Professional,25000,No,No,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,3,No,Koramangala,1
+32,Male,Professional,24000,No,No,4,Moderate,Extroverted,Early Bird,Vegan,4,Yes,Electronic City,8
+19,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Whitefield,9
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,4
+18,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+35,Male,Professional,30000,No,Yes,1,Quiet,Extroverted,Night Owl,Non-Vegetarian,5,No,Koramangala,2
+34,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,Electronic City,8
+35,Female,Professional,21000,No,Yes,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Whitefield,1
+21,Female,Student,10000,No,Yes,2,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,5
+47,Female,Professional,26000,Yes,No,5,Moderate,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,4
+18,Male,Student,8000,No,Yes,2,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,5
+39,Male,Professional,26000,Yes,No,1,Quiet,Extroverted,Flexible,Non-Vegetarian,4,Yes,Whitefield,2
+45,Male,Professional,27000,No,No,4,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Whitefield,3
+21,Female,Student,6000,No,Yes,3,Moderate,Introverted,Flexible,Non-Vegetarian,2,No,HSR Layout,5
+36,Female,Professional,23000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,1
+40,Male,Professional,28000,No,No,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,4,No,Sarjapur Road,9
+26,Male,Professional,24000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,3,No,Koramangala,7
+22,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,6
+22,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,HSR Layout,5
+46,Female,Professional,22000,No,Yes,4,Moderate,Extroverted,Night Owl,Non-Vegetarian,4,Yes,Electronic City,5
+38,Male,Professional,20000,Yes,Yes,5,Quiet,Introverted,Night Owl,Vegetarian,4,Yes,Sarjapur Road,3
+19,Male,Student,7000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Electronic City,3
+19,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,HSR Layout,5
+21,Male,Student,10000,No,Yes,3,Quiet,Extroverted,Early Bird,Vegetarian,1,No,HSR Layout,5
+44,Female,Professional,21000,Yes,No,2,Moderate,Introverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+22,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Koramangala,1
+46,Female,Professional,30000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,5,Yes,HSR Layout,1
+31,Male,Professional,28000,Yes,No,2,Moderate,Introverted,Flexible,Vegetarian,5,No,Koramangala,7
+20,Female,Student,14000,No,No,3,Moderate,Introverted,Early Bird,Vegetarian,3,No,Sarjapur Road,2
+22,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,2
+20,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+27,Male,Professional,29000,Yes,No,3,Quiet,Extroverted,Flexible,Non-Vegetarian,5,No,Koramangala,2
+19,Female,Student,6000,Yes,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Whitefield,4
+21,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,HSR Layout,9
+27,Female,Professional,20000,No,Yes,4,Quiet,Extroverted,Flexible,Vegetarian,4,No,Electronic City,4
+20,Male,Student,9000,No,No,1,Moderate,Introverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,2
+19,Female,Student,9000,No,No,2,Quiet,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,4
+32,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,HSR Layout,10
+19,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Koramangala,6
+18,Female,Student,13000,No,No,2,Quiet,Extroverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,4
+20,Male,Student,6000,No,No,3,Quiet,Introverted,Early Bird,Non-Vegetarian,2,No,Whitefield,1
+18,Female,Student,7000,No,Yes,2,Quiet,Introverted,Night Owl,Vegetarian,3,No,Whitefield,2
+22,Female,Student,9000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Sarjapur Road,6
+19,Female,Student,13000,No,No,1,Moderate,Extroverted,Early Bird,Vegetarian,1,No,Electronic City,6
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,3
+21,Male,Student,13000,No,No,3,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,Whitefield,5
+19,Male,Student,5000,No,No,3,Moderate,Extroverted,Night Owl,Vegetarian,3,No,Whitefield,6
+18,Female,Student,8000,No,Yes,2,Moderate,Introverted,Flexible,Non-Vegetarian,3,No,HSR Layout,4
+21,Male,Student,14000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,1,No,Whitefield,3
+22,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,1
+20,Male,Student,8000,No,No,3,Quiet,Introverted,Night Owl,Vegetarian,1,No,Sarjapur Road,7
+20,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Whitefield,9
+18,Female,Student,13000,No,No,2,Moderate,Introverted,Night Owl,Vegetarian,2,No,Koramangala,7
+19,Female,Student,5000,Yes,Yes,3,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Koramangala,3
+22,Female,Student,10000,No,No,2,Quiet,Introverted,Night Owl,Vegetarian,2,No,Electronic City,2
+20,Female,Student,14000,No,No,1,Quiet,Extroverted,Early Bird,Vegetarian,2,No,Sarjapur Road,6
+20,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,2
+32,Female,Professional,23000,No,Yes,5,Moderate,Extroverted,Early Bird,Vegetarian,5,Yes,HSR Layout,8
+22,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Sarjapur Road,9
+24,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Sarjapur Road,10
+44,Female,Professional,26000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,5,Yes,HSR Layout,5
+22,Male,Student,14000,No,No,2,Moderate,Introverted,Early Bird,Vegan,2,No,Koramangala,5
+22,Male,Student,6000,Yes,No,1,Quiet,Introverted,Night Owl,Vegetarian,1,No,HSR Layout,1
+20,Male,Student,12000,No,No,3,Quiet,Introverted,Early Bird,Vegetarian,1,No,Koramangala,2
+36,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,Koramangala,6
+49,Male,Professional,30000,No,No,3,Moderate,Introverted,Flexible,Vegetarian,4,Yes,Koramangala,1
+28,Male,Professional,27000,No,Yes,3,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,Yes,Electronic City,3
+19,Male,Student,11000,Yes,Yes,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,10
+21,Male,Student,9000,No,No,1,Loud,Introverted,Night Owl,Vegetarian,3,No,Koramangala,9
+21,Female,Student,8000,No,No,2,Quiet,Extroverted,Early Bird,Non-Vegetarian,2,No,Sarjapur Road,5
+18,Male,Student,9000,No,Yes,1,Moderate,Introverted,Early Bird,Non-Vegetarian,1,No,Koramangala,9
+22,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,Sarjapur Road,6
+20,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+18,Male,Student,6000,No,No,2,Quiet,Introverted,Early Bird,Vegetarian,3,No,Whitefield,3
+18,Male,Student,12000,No,No,3,Moderate,Extroverted,Early Bird,Vegetarian,3,No,HSR Layout,6
+43,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Sarjapur Road,5
+21,Male,Student,13000,No,Yes,1,Loud,Introverted,Flexible,Vegetarian,2,No,Koramangala,2
+19,Female,Student,12000,No,No,1,Quiet,Introverted,Flexible,Non-Vegetarian,1,No,Koramangala,2
+19,Female,Student,6000,No,No,3,Moderate,Extroverted,Night Owl,Non-Vegetarian,1,No,Sarjapur Road,3
+22,Male,Student,8000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,2,No,Sarjapur Road,1
+31,Male,Professional,29000,No,Yes,5,Quiet,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,5
+22,Female,Student,13000,No,No,3,Moderate,Extroverted,Early Bird,Non-Vegetarian,3,No,Whitefield,3
+31,Male,Professional,21000,No,No,5,Quiet,Introverted,Night Owl,Non-Vegetarian,5,Yes,Electronic City,10
+19,Female,Student,7000,Yes,No,3,Quiet,Extroverted,Night Owl,Non-Vegetarian,1,No,Electronic City,4
+22,Male,Student,10000,Yes,No,3,Loud,Introverted,Early Bird,Vegetarian,3,No,HSR Layout,3
+31,Male,Professional,28000,Yes,No,3,Quiet,Introverted,Night Owl,Vegan,5,Yes,Koramangala,6
+43,Female,Professional,30000,No,Yes,1,Quiet,Introverted,Night Owl,Non-Vegetarian,5,No,Whitefield,5
+24,Male,Professional,21000,Yes,Yes,3,Moderate,Extroverted,Flexible,Non-Vegetarian,4,Yes,HSR Layout,6
+21,Female,Student,11000,No,Yes,1,Moderate,Extroverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,7
+20,Female,Student,12000,No,Yes,3,Moderate,Introverted,Night Owl,Vegetarian,1,No,Whitefield,5
+21,Female,Student,9000,No,Yes,3,Quiet,Introverted,Early Bird,Vegan,1,No,HSR Layout,3
+19,Male,Student,11000,No,No,2,Moderate,Introverted,Flexible,Vegetarian,2,No,Sarjapur Road,2
+20,Female,Student,12000,No,No,2,Quiet,Introverted,Early Bird,Non-Vegetarian,1,No,Sarjapur Road,9
+20,Male,Student,8000,No,Yes,2,Quiet,Introverted,Early Bird,Non-Vegetarian,3,No,Electronic City,2
+41,Male,Professional,24000,No,No,2,Moderate,Introverted,Night Owl,Non-Vegetarian,3,No,HSR Layout,3
