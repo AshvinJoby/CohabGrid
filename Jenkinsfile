@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+        stage('Clean Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
         stage('Clone') {
             steps {
                 git branch: 'main', url: 'https://github.com/AshvinJoby/CohabGrid.git'
