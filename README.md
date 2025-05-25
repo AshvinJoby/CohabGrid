@@ -1,1 +1,1 @@
-# CohabGrid
+# CohabGrid - Roommate Recommendation System
