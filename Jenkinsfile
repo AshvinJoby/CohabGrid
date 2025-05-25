@@ -1,11 +1,8 @@
 pipeline {
     agent any
-
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('docker-hub-cred') // Replace with your Jenkins credential ID
         IMAGE_NAME = 'ashvinjoby/roommate-app'
     }
-
     stages {
         stage('Clean Workspace') {
             steps {
@@ -17,7 +14,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/AshvinJoby/CohabGrid.git'
             }
         }
-
         stage('Build Docker Image') {
             steps {
                 script {
@@ -25,11 +21,10 @@ pipeline {
                 }
             }
         }
-
         stage('Push to Docker Hub') {
             steps {
                 script {
-                    docker.withRegistry('https://index.docker.io/v1/', DOCKERHUB_CREDENTIALS) {
+                    docker.withRegistry('https://index.docker.io/v1/', 'docker-hub-cred') {
                         docker.image("${IMAGE_NAME}:latest").push()
                     }
                 }
