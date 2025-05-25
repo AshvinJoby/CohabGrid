@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials-id') // Replace with your Jenkins credential ID
+        DOCKERHUB_CREDENTIALS = credentials('docker-hub-cred') // Replace with your Jenkins credential ID
         IMAGE_NAME = 'ashvinjoby/roommate-app'
     }
 
