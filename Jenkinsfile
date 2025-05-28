@@ -55,10 +55,10 @@ pipeline {
             steps {
                 script {
                     echo "Waiting for the application to become available..."
-                    bat 'powershell -Command "Start-Sleep -Seconds 30"'
+                    bat 'powershell -Command "Start-Sleep -Seconds 60"'
 
                     def nodeIp = '192.168.49.2'
-                    def nodePort = '30544'
+                    def nodePort = '30545'
 
                     echo "Testing Streamlit app via curl at http://${nodeIp}:${nodePort}"
                     bat """
