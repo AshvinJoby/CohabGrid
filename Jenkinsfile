@@ -53,7 +53,7 @@ pipeline {
             steps {
                 script {
                     //Wait for the pod/service to start
-                    bat 'timeout /t 30'
+                    bat 'timeout /t 30 /nobreak'
                     
                     //NodePort IP
                     bat 'curl 10.101.184.107 '
