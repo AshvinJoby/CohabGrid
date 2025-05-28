@@ -56,7 +56,7 @@ pipeline {
                     bat 'timeout /t 30 /nobreak'
                     
                     //NodePort IP
-                    bat 'curl 10.101.184.107 '
+                    bat 'curl 10.101.184.107'
                 }
             }
         }
