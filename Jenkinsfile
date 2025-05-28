@@ -3,17 +3,20 @@ pipeline {
     environment {
         IMAGE_NAME = 'ashvinjoby/roommate-app'
     }
+
     stages {
-        stage('Prepare Workspace') {
+        stage('Clean Workspace') {
             steps {
                 cleanWs()
             }
         }
-        stage('Clone') {
+
+        stage('Clone Repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/AshvinJoby/CohabGrid.git'
             }
         }
+
         stage('Build Docker Image') {
             steps {
                 script {
@@ -21,6 +24,7 @@ pipeline {
                 }
             }
         }
+
         stage('Push to Docker Hub') {
             steps {
                 script {
@@ -30,16 +34,30 @@ pipeline {
                 }
             }
         }
+
         stage('Deploy to Kubernetes') {
             steps {
-                script {
-                    bat 'kubectl apply -f streamlit-deployment.yaml'
+                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG_FILE')]) {
+                    script {
+                        env.KUBECONFIG = "${KUBECONFIG_FILE}"
+
+                        //deployment and service files
+                        bat 'kubectl apply -f streamlit-deployment.yaml'
+                        bat 'kubectl apply -f service.yaml'
+                    }
                 }
             }
         }
-        stage('Cleanup') {
+
+        stage('Run Smoke Test') {
             steps {
-                cleanWs()
+                script {
+                    // Wait for the pod/service to start
+                    bat 'timeout /t 30'
+                    
+                    // Replace with actual endpoint or NodePort/LoadBalancer IP
+                    bat 'curl 10.101.184.107 '
+                }
             }
         }
     }
