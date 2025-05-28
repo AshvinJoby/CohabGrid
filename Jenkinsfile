@@ -4,7 +4,7 @@ pipeline {
         IMAGE_NAME = 'ashvinjoby/roommate-app'
     }
     stages {
-        stage('Clean Workspace') {
+        stage('Prepare Workspace') {
             steps {
                 cleanWs()
             }
@@ -28,6 +28,18 @@ pipeline {
                         docker.image("${IMAGE_NAME}:latest").push()
                     }
                 }
+            }
+        }
+        stage('Deploy to Kubernetes') {
+            steps {
+                script {
+                    sh 'kubectl apply -f streamlit-deployment.yaml'
+                }
+            }
+        }
+        stage('Cleanup') {
+            steps {
+                cleanWs()
             }
         }
     }
