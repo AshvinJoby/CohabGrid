@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         IMAGE_NAME = 'ashvinjoby/roommate-app'
+        TAG = 'latest'
     }
 
     stages {
@@ -20,7 +21,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("${IMAGE_NAME}:latest")
+                    docker.build("${IMAGE_NAME}:${TAG}")
                 }
             }
         }
@@ -29,7 +30,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', 'docker-hub-cred') {
-                        docker.image("${IMAGE_NAME}:latest").push()
+                        docker.image("${IMAGE_NAME}:${TAG}").push()
                     }
                 }
             }
@@ -39,11 +40,12 @@ pipeline {
             steps {
                 withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG_FILE')]) {
                     script {
-                        env.KUBECONFIG = "${KUBECONFIG_FILE}"
+                        // Set KUBECONFIG env var for Windows agents
+                        env.KUBECONFIG = "${KUBECONFIG_FILE}".replaceAll('\\\\', '/')
 
-                        //deployment and service files
-                        bat 'kubectl apply -f streamlit-deployment.yaml'
-                        bat 'kubectl apply -f service.yaml'
+                        // Apply Kubernetes manifests
+                        bat "kubectl apply -f streamlit-deployment.yaml"
+                        bat "kubectl apply -f service.yaml"
                     }
                 }
             }
@@ -52,11 +54,19 @@ pipeline {
         stage('Run Smoke Test') {
             steps {
                 script {
-                    //Wait for pod/service to start
+                    echo "Waiting for the application to become available..."
                     bat 'powershell -Command "Start-Sleep -Seconds 30"'
-                    
-                    //NodePort IP
-                    bat 'curl http://192.168.49.2:30544'
+
+                    def nodeIp = '192.168.49.2'
+                    def nodePort = '30544'
+
+                    echo "Testing Streamlit app via curl at http://${nodeIp}:${nodePort}"
+                    bat """
+                        curl --fail --connect-timeout 10 http://${nodeIp}:${nodePort} || (
+                            echo Streamlit app is not reachable at ${nodeIp}:${nodePort}
+                            exit /b 1
+                        )
+                    """
                 }
             }
         }
