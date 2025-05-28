@@ -56,7 +56,7 @@ pipeline {
                     bat 'powershell -Command "Start-Sleep -Seconds 30"'
                     
                     //NodePort IP
-                    bat 'curl 10.101.184.107'
+                    bat 'curl http://192.168.49.2:30544'
                 }
             }
         }
