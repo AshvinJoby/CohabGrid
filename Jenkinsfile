@@ -52,10 +52,10 @@ pipeline {
         stage('Run Smoke Test') {
             steps {
                 script {
-                    // Wait for the pod/service to start
+                    //Wait for the pod/service to start
                     bat 'timeout /t 30'
                     
-                    // Replace with actual endpoint or NodePort/LoadBalancer IP
+                    //NodePort IP
                     bat 'curl 10.101.184.107 '
                 }
             }
