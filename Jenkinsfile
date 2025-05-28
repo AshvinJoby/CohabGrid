@@ -33,7 +33,7 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 script {
-                    sh 'kubectl apply -f streamlit-deployment.yaml'
+                    bat 'kubectl apply -f streamlit-deployment.yaml'
                 }
             }
         }
