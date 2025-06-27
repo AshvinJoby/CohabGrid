@@ -37,17 +37,25 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                echo Applying Kubernetes manifests using Minikube kubeconfig...
+                echo 🔄 Ensuring Minikube is running...
+                "C:\\Program Files\\Minikube\\minikube.exe" status || "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
 
-                SET KUBECONFIG=%USERPROFILE%\\.kube\\config
+                echo Minikube is running. Setting KUBECONFIG...
+                SET KUBECONFIG=C:\\WINDOWS\\system32\\config\\systemprofile\\.kube\\config
 
+                echo Switching to minikube context...
                 kubectl config use-context minikube
 
+                echo Verifying API server is reachable...
+                kubectl cluster-info
+
+                echo Applying Kubernetes manifests...
                 kubectl apply -f deployment.yaml --validate=false
                 kubectl apply -f service.yaml --validate=false
                 '''
             }
         }
+
 
         stage('Get App URL') {
             steps {
