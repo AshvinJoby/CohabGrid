@@ -21,8 +21,8 @@ pipeline {
                 withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
                     bat '''
                     echo Deploying to Kubernetes using Jenkins kubeconfig credential...
-                    kubectl apply -f k8s\\deployment.yaml
-                    kubectl apply -f k8s\\service.yaml
+                    kubectl apply -f deployment.yaml
+                    kubectl apply -f service.yaml
                     '''
                 }
             }
