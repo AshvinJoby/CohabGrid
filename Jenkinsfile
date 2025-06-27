@@ -7,12 +7,11 @@ pipeline {
     }
 
     stages {
-        stage('Check Minikube') {
+        stage('Start Minikube') {
             steps {
                 bat '''
-                echo Checking Minikube installation...
-                where minikube || echo Minikube not found in PATH
-                "%MINIKUBE_EXE%" status
+                echo Starting Minikube if not already running...
+                "%MINIKUBE_EXE%" status || "%MINIKUBE_EXE%" start --driver=docker
                 '''
             }
         }
