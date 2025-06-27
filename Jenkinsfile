@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'roommate-recommender:latest'
+        KUBECONFIG = 'C:\\Users\\ashvin\\.kube\\config'  // Path to your working kubeconfig
     }
 
     stages {
@@ -18,13 +19,11 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
-                    bat '''
-                    echo Deploying to Kubernetes using Jenkins kubeconfig credential...
-                    kubectl apply -f deployment.yaml
-                    kubectl apply -f service.yaml
-                    '''
-                }
+                bat '''
+                echo Deploying to Kubernetes using local kubeconfig...
+                kubectl apply -f deployment.yaml
+                kubectl apply -f service.yaml
+                '''
             }
         }
 
