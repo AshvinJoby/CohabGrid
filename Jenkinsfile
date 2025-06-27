@@ -40,12 +40,16 @@ pipeline {
             steps {
                 withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG_FILE')]) {
                     script {
-                        // Set KUBECONFIG env var for Windows agents
-                        env.KUBECONFIG = "${KUBECONFIG_FILE}".replaceAll('\\\\', '/')
+                        // Set KUBECONFIG environment variable to the provided config path
+                        env.KUBECONFIG = "${KUBECONFIG_FILE}"
 
-                        // Apply Kubernetes manifests
-                        bat "kubectl apply -f streamlit-deployment.yaml"
-                        bat "kubectl apply -f service.yaml"
+                        // Confirm cluster is reachable
+                        bat 'kubectl config current-context'
+                        bat 'kubectl cluster-info'
+
+                        //validation off
+                        bat 'kubectl apply -f streamlit-deployment.yaml --validate=false'
+                        bat 'kubectl apply -f service.yaml --validate=false'
                     }
                 }
             }
