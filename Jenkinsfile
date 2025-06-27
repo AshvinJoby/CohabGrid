@@ -1,36 +1,31 @@
 pipeline {
     agent any
+
     environment {
-        IMAGE_NAME = 'ashvinjoby/roommate-app'
-        TAG = 'latest'
+        DOCKER_IMAGE = 'ashvinjoby/roommate-recommender:latest'
+        KUBE_CONFIG = credentials('kubeconfig-')  
     }
 
     stages {
-        stage('Clean Workspace') {
+        stage('Checkout') {
             steps {
-                cleanWs()
-            }
-        }
-
-        stage('Clone Repo') {
-            steps {
-                git branch: 'main', url: 'https://github.com/AshvinJoby/CohabGrid.git'
+                checkout scm
             }
         }
 
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build("${IMAGE_NAME}:${TAG}")
+                    docker.build(DOCKER_IMAGE)
                 }
             }
         }
 
-        stage('Push to Docker Hub') {
+        stage('Push Image to DockerHub') {
             steps {
-                script {
-                    docker.withRegistry('https://index.docker.io/v1/', 'docker-hub-cred') {
-                        docker.image("${IMAGE_NAME}:${TAG}").push()
+                withDockerRegistry([credentialsId: 'docker-hub-cred', url: '']) {
+                    script {
+                        docker.image(DOCKER_IMAGE).push()
                     }
                 }
             }
@@ -38,41 +33,20 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG_FILE')]) {
-                    script {
-                        // Set KUBECONFIG environment variable to the provided config path
-                        env.KUBECONFIG = "${KUBECONFIG_FILE}"
-
-                        // Confirm cluster is reachable
-                        bat 'kubectl config current-context'
-                        bat 'kubectl cluster-info'
-
-                        //validation off
-                        bat 'kubectl apply -f streamlit-deployment.yaml --validate=false'
-                        bat 'kubectl apply -f service.yaml --validate=false'
-                    }
+                withEnv(["KUBECONFIG=${KUBE_CONFIG}"]) {
+                    sh 'kubectl apply -f k8s/deployment.yaml'
+                    sh 'kubectl apply -f k8s/service.yaml'
                 }
             }
         }
+    }
 
-        stage('Run Smoke Test') {
-            steps {
-                script {
-                    echo "Waiting for the application to become available..."
-                    bat 'powershell -Command "Start-Sleep -Seconds 60"'
-
-                    def nodeIp = '192.168.49.2'
-                    def nodePort = '30545'
-
-                    echo "Testing Streamlit app via curl at http://${nodeIp}:${nodePort}"
-                    bat """
-                        curl --fail --connect-timeout 10 http://${nodeIp}:${nodePort} || (
-                            echo Streamlit app is not reachable at ${nodeIp}:${nodePort}
-                            exit /b 1
-                        )
-                    """
-                }
-            }
+    post {
+        success {
+            echo 'Deployment successful!'
+        }
+        failure {
+            echo 'Deployment failed!'
         }
     }
 }

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: roommate-recommender
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: roommate-recommender
+  template:
+    metadata:
+      labels:
+        app: roommate-recommender
+    spec:
+      containers:
+      - name: app
+        image: your-dockerhub-username/roommate-recommender:latest
+        ports:
+        - containerPort: 8501
