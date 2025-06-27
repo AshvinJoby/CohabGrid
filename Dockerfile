@@ -15,7 +15,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies from requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --retries 10 --timeout 100 -r requirements.txt
 
 # Expose default Streamlit port
 EXPOSE 8501
