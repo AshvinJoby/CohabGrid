@@ -6,36 +6,31 @@ pipeline {
     }
 
     stages {
-        stage('Build Docker Image inside Minikube') {
+        stage('Build Docker Image') {
             steps {
                 bat '''
-                echo Setting Minikube Docker environment...
                 call minikube docker-env --shell=cmd > minikube_env.bat
                 call minikube_env.bat
-
-                echo Building Docker image inside Minikube...
                 docker build -t %IMAGE_NAME% .
                 '''
             }
         }
 
-        stage('Deploy to Minikube') {
+        stage('Deploy to Kubernetes') {
             steps {
-                bat '''
-                echo Deploying to Kubernetes...
-                kubectl apply -f deployment.yaml
-                kubectl apply -f service.yaml
-                '''
+                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+                    bat '''
+                    echo Deploying to Kubernetes using Jenkins kubeconfig credential...
+                    kubectl apply -f k8s\\deployment.yaml
+                    kubectl apply -f k8s\\service.yaml
+                    '''
+                }
             }
         }
 
         stage('Get App URL') {
             steps {
-                bat '''
-                echo Fetching Service URL...
-                minikube service roommate-recommender-service --url > url.txt
-                type url.txt
-                '''
+                bat 'minikube service roommate-recommender-service --url'
             }
         }
     }
