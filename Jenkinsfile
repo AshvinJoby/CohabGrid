@@ -36,13 +36,20 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
-                    bat '''
-                    echo Applying Kubernetes manifests...
-                    kubectl apply -f deployment.yaml
-                    kubectl apply -f service.yaml
-                    '''
-                }
+                stage('Deploy to Kubernetes') {
+    steps {
+        bat '''
+        echo Applying Kubernetes manifests using Minikube kubeconfig...
+
+        SET KUBECONFIG=%USERPROFILE%\\.kube\\config
+
+        kubectl config use-context minikube
+
+        kubectl apply -f deployment.yaml --validate=false
+        kubectl apply -f service.yaml --validate=false
+        '''
+    }
+}
             }
         }
 
