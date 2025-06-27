@@ -2,51 +2,32 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'ashvinjoby/roommate-recommender:latest'
-        KUBE_CONFIG = credentials('kubeconfig-')  
+        IMAGE_NAME = 'roommate-recommender:latest'
     }
 
     stages {
-        stage('Checkout') {
+        stage('Build Image in Minikube') {
             steps {
-                checkout scm
+                sh '''
+                eval $(minikube docker-env)
+                docker build -t $IMAGE_NAME .
+                '''
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Deploy to Minikube') {
             steps {
-                script {
-                    docker.build(DOCKER_IMAGE)
-                }
-            }
-        }
-
-        stage('Push Image to DockerHub') {
-            steps {
-                withDockerRegistry([credentialsId: 'docker-hub-cred', url: '']) {
-                    script {
-                        docker.image(DOCKER_IMAGE).push()
-                    }
-                }
-            }
-        }
-
-        stage('Deploy to Kubernetes') {
-            steps {
-                withEnv(["KUBECONFIG=${KUBE_CONFIG}"]) {
-                    sh 'kubectl apply -f k8s/deployment.yaml'
-                    sh 'kubectl apply -f k8s/service.yaml'
-                }
+                sh '''
+                kubectl apply -f deployment.yaml
+                kubectl apply -f service.yaml
+                '''
             }
         }
     }
 
     post {
         success {
-            echo 'Deployment successful!'
-        }
-        failure {
-            echo 'Deployment failed!'
+            sh "minikube service roommate-recommender-service --url"
         }
     }
 }

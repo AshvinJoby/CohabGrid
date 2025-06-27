@@ -13,7 +13,8 @@ spec:
         app: roommate-recommender
     spec:
       containers:
-      - name: app
-        image: your-dockerhub-username/roommate-recommender:latest
+      - name: streamlit
+        image: roommate-recommender:latest 
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8501
