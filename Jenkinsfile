@@ -10,7 +10,7 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                echo Starting Minikube if not already running...
+                echo Starting Minikube if not running...
                 "%MINIKUBE_EXE%" status || "%MINIKUBE_EXE%" start --driver=docker
                 '''
             }
@@ -19,11 +19,18 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                call "%MINIKUBE_EXE%" docker-env --shell=cmd > minikube_env.bat
+
+                echo Setting Minikube Docker environment...
+                call "C:\\Program Files\\Minikube\\minikube.exe" docker-env --shell=cmd > minikube_env.bat
                 call minikube_env.bat
+
+                echo Disabling TLS verification to avoid x509 cert issues...
+                set DOCKER_TLS_VERIFY=0
+
+                echo Building Docker image...
                 docker build -t %IMAGE_NAME% .
                 '''
-            }
+    }
         }
 
         stage('Deploy to Kubernetes') {
