@@ -36,20 +36,16 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                stage('Deploy to Kubernetes') {
-    steps {
-        bat '''
-        echo Applying Kubernetes manifests using Minikube kubeconfig...
+                bat '''
+                echo Applying Kubernetes manifests using Minikube kubeconfig...
 
-        SET KUBECONFIG=%USERPROFILE%\\.kube\\config
+                SET KUBECONFIG=%USERPROFILE%\\.kube\\config
 
-        kubectl config use-context minikube
+                kubectl config use-context minikube
 
-        kubectl apply -f deployment.yaml --validate=false
-        kubectl apply -f service.yaml --validate=false
-        '''
-    }
-}
+                kubectl apply -f deployment.yaml --validate=false
+                kubectl apply -f service.yaml --validate=false
+                '''
             }
         }
 
