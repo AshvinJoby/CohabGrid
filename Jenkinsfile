@@ -3,14 +3,24 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'roommate-recommender:latest'
-        KUBECONFIG = 'C:\\Users\\ashvin\\.kube\\config'  // Path to your working kubeconfig
+        MINIKUBE_EXE = 'C:\\Program Files\\Minikube\\minikube.exe'
     }
 
     stages {
+        stage('Check Minikube') {
+            steps {
+                bat '''
+                echo Checking Minikube installation...
+                where minikube || echo Minikube not found in PATH
+                "%MINIKUBE_EXE%" status
+                '''
+            }
+        }
+
         stage('Build Docker Image') {
             steps {
                 bat '''
-                call minikube docker-env --shell=cmd > minikube_env.bat
+                call "%MINIKUBE_EXE%" docker-env --shell=cmd > minikube_env.bat
                 call minikube_env.bat
                 docker build -t %IMAGE_NAME% .
                 '''
@@ -19,27 +29,29 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                bat '''
-                echo Deploying to Kubernetes using local kubeconfig...
-                kubectl apply -f deployment.yaml
-                kubectl apply -f service.yaml
-                '''
+                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+                    bat '''
+                    echo Deploying to Kubernetes using Jenkins kubeconfig credential...
+                    kubectl apply -f deployment.yaml --validate=false
+                    kubectl apply -f service.yaml --validate=false
+                    '''
+                }
             }
         }
 
         stage('Get App URL') {
             steps {
-                bat 'minikube service roommate-recommender-service --url'
+                bat '"%MINIKUBE_EXE%" service roommate-recommender-service --url'
             }
         }
     }
 
     post {
         success {
-            echo 'Deployment complete'
+            echo '✅ Deployment complete'
         }
         failure {
-            echo 'Deployment failed'
+            echo '❌ Deployment failed'
         }
     }
 }
