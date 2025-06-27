@@ -3,37 +3,44 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'roommate-recommender:latest'
-        MINIKUBE_EXE = 'C:\\Program Files\\Minikube\\minikube.exe'
+        MINIKUBE_PATH = '"C:\\Program Files\\Minikube\\minikube.exe"'
     }
 
     stages {
-        stage('Start Minikube') {
+        stage('Check Minikube') {
             steps {
                 bat '''
                 echo Starting Minikube if not running...
-                "%MINIKUBE_EXE%" status || "%MINIKUBE_EXE%" start --driver=docker
+                %MINIKUBE_PATH% status || %MINIKUBE_PATH% start --driver=docker
                 '''
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build Docker Image (Docker Desktop)') {
             steps {
                 bat '''
-                call "C:\\Program Files\\Minikube\\minikube.exe" docker-env --shell=cmd > minikube_env.bat
-                call minikube_env.bat
-                set DOCKER_TLS_VERIFY=
+                echo Building Docker image using Docker Desktop...
                 docker build -t %IMAGE_NAME% .
                 '''
-                }
+            }
+        }
+
+        stage('Load Image into Minikube') {
+            steps {
+                bat '''
+                echo Loading image into Minikube...
+                %MINIKUBE_PATH% image load %IMAGE_NAME%
+                '''
+            }
         }
 
         stage('Deploy to Kubernetes') {
             steps {
                 withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
                     bat '''
-                    echo Deploying to Kubernetes using Jenkins kubeconfig credential...
-                    kubectl apply -f deployment.yaml --validate=false
-                    kubectl apply -f service.yaml --validate=false
+                    echo Applying Kubernetes manifests...
+                    kubectl apply -f deployment.yaml
+                    kubectl apply -f service.yaml
                     '''
                 }
             }
@@ -41,17 +48,20 @@ pipeline {
 
         stage('Get App URL') {
             steps {
-                bat '"%MINIKUBE_EXE%" service roommate-recommender-service --url'
+                bat '''
+                echo Getting Minikube service URL...
+                %MINIKUBE_PATH% service roommate-recommender-service --url
+                '''
             }
         }
     }
 
     post {
         success {
-            echo '✅ Deployment complete'
+            echo 'Deployment complete'
         }
         failure {
-            echo '❌ Deployment failed'
+            echo 'Deployment failed'
         }
     }
 }
