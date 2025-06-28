@@ -2,19 +2,20 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = 'C:\\WINDOWS\\system32\\config\\systemprofile\\.kube\\config'
+        MINIKUBE_PATH = '"C:\\Program Files\\Minikube\\minikube.exe"'
+        KUBECTL_PATH = '"C:\\Program Files\\Kubernetes\\kubectl.exe"'
     }
 
     stages {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo ✅ Starting Minikube...
-                    "C:\\Program Files\\Minikube\\minikube.exe" status
+                    echo ✅ Checking Minikube status...
+                    %MINIKUBE_PATH% status
                     if errorlevel 1 (
                         echo 🔄 Restarting Minikube...
-                        "C:\\Program Files\\Minikube\\minikube.exe" delete
-                        "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
+                        %MINIKUBE_PATH% delete
+                        %MINIKUBE_PATH% start --driver=docker
                     ) else (
                         echo 🚀 Minikube already running.
                     )
@@ -22,20 +23,25 @@ pipeline {
             }
         }
 
-        stage('Wait for API Server') {
+        stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
                     echo 🕒 Waiting for Kubernetes API server...
-                    for /l %%x in (1, 1, 15) do (
-                        kubectl get nodes && goto ready
+                    set COUNT=0
+                    :retry
+                    %KUBECTL_PATH% get nodes >nul 2>&1
+                    if %errorlevel%==0 (
+                        echo ✅ Kubernetes API server is ready!
+                    ) else (
+                        if %COUNT% GEQ 15 (
+                            echo ❌ Kubernetes API server did not start in time.
+                            exit /b 1
+                        )
                         echo Waiting 10 seconds...
-                        timeout /t 10 > nul
+                        timeout /t 10 >nul
+                        set /a COUNT+=1
+                        goto retry
                     )
-                    echo ❌ Kubernetes API server did not start in time.
-                    exit /b 1
-
-                    :ready
-                    echo ✅ API server is ready.
                 '''
             }
         }
@@ -44,7 +50,7 @@ pipeline {
             steps {
                 bat '''
                     echo 🐳 Building Docker image...
-                    docker build -t roommate-recommender:latest .
+                    docker build -t myapp-image .
                 '''
             }
         }
@@ -52,10 +58,9 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                    echo 📦 Applying Kubernetes manifests...
-                    kubectl config use-context minikube
-                    kubectl apply -f deployment.yaml --validate=false
-                    kubectl apply -f service.yaml --validate=false
+                    echo 🚀 Deploying to Kubernetes...
+                    %KUBECTL_PATH% apply -f k8s/deployment.yaml
+                    %KUBECTL_PATH% apply -f k8s/service.yaml
                 '''
             }
         }
@@ -64,7 +69,7 @@ pipeline {
             steps {
                 bat '''
                     echo 🌐 Getting service URL...
-                    "C:\\Program Files\\Minikube\\minikube.exe" service roommate-recommender-service --url
+                    %MINIKUBE_PATH% service myapp-service --url
                 '''
             }
         }
@@ -73,9 +78,6 @@ pipeline {
     post {
         failure {
             echo '❌ Deployment failed'
-        }
-        success {
-            echo '✅ Deployment successful'
         }
     }
 }
