@@ -61,8 +61,8 @@ pipeline {
             steps {
                 bat '''
                     echo 🚀 Deploying to Kubernetes...
-                    %KUBECTL_PATH% apply -f k8s/deployment.yaml
-                    %KUBECTL_PATH% apply -f k8s/service.yaml
+                    %KUBECTL_PATH% apply -f deployment.yaml
+                    %KUBECTL_PATH% apply -f service.yaml
                 '''
             }
         }
