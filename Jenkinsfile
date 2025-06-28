@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = "${WORKSPACE}/.kube/config"
+        KUBECONFIG = "${WORKSPACE}\\.kube\\config"
         PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
@@ -18,10 +18,10 @@ pipeline {
                 bat '''
                     minikube status
                     IF errorlevel 1 (
-                    echo "Minikube not running, starting..."
-                    minikube start --driver=docker
+                        echo "Minikube not running, starting..."
+                        minikube start --driver=docker
                     ) ELSE (
-                    echo "Minikube is running"
+                        echo "Minikube is running"
                     )
                 '''
             }
@@ -32,7 +32,7 @@ pipeline {
                 bat '''
                     echo 🕒 Waiting for Kubernetes API server...
 
-                    set COUNT=0
+                    set COUNT=1
                     :loop
                     kubectl get nodes >nul 2>&1
                     if %ERRORLEVEL% EQU 0 (
@@ -55,8 +55,9 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🛠️ Building Docker image...
-                    docker build -t cohabgrid-app .
+                    echo 🛠️ Building Docker image inside Minikube...
+                    for /f "tokens=*" %%i in ('minikube docker-env --shell=cmd') do call %%i
+                    docker build -t cohabgrid-app:latest .
                 '''
             }
         }
@@ -73,7 +74,25 @@ pipeline {
         stage('Get App URL') {
             steps {
                 bat '''
-                    echo 🌐 Getting app URL...
+                    echo 🌐 Waiting for pod to be ready...
+
+                    set COUNT=0
+                    :wait_pod
+                    kubectl get pods | findstr "cohabgrid" | findstr "Running"
+                    if %ERRORLEVEL% EQU 0 (
+                        echo ✅ Pod is running!
+                        goto showurl
+                    )
+                    if %COUNT% GEQ 15 (
+                        echo ❌ Pod did not start in time.
+                        exit /b 1
+                    )
+                    echo ⏳ Waiting for pod... (%COUNT%/15)
+                    set /a COUNT+=1
+                    timeout /t 5 >nul
+                    goto wait_pod
+
+                    :showurl
                     minikube service cohabgrid-service --url
                 '''
             }
