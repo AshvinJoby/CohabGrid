@@ -16,10 +16,13 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo 🔄 Forcing Minikube restart with Docker driver...
-                    minikube config set driver docker
-                    minikube delete
+                    minikube status
+                    IF errorlevel 1 (
+                    echo "Minikube not running, starting..."
                     minikube start --driver=docker
+                    ) ELSE (
+                    echo "Minikube is running"
+                    )
                 '''
             }
         }
