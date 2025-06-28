@@ -2,34 +2,45 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'roommate-recommender:latest'
-        MINIKUBE_PATH = '"C:\\Program Files\\Minikube\\minikube.exe"'
+        KUBECONFIG = 'C:\\WINDOWS\\system32\\config\\systemprofile\\.kube\\config'
     }
 
     stages {
-        stage('Check Minikube') {
+        stage('Start Minikube') {
             steps {
                 bat '''
-                echo Starting Minikube if not running...
-                %MINIKUBE_PATH% status || %MINIKUBE_PATH% start --driver=docker
+                    echo ✅ Starting Minikube...
+                    "C:\\Program Files\\Minikube\\minikube.exe" status || (
+                        "C:\\Program Files\\Minikube\\minikube.exe" delete &&
+                        "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
+                    )
                 '''
             }
         }
 
-        stage('Build Docker Image (Docker Desktop)') {
+        stage('Wait for API Server') {
             steps {
                 bat '''
-                echo Building Docker image using Docker Desktop...
-                docker build -t %IMAGE_NAME% .
+                    echo 🕒 Waiting for Kubernetes API server...
+                    for /l %%x in (1, 1, 15) do (
+                        kubectl get nodes && goto ready
+                        echo Waiting 10 seconds...
+                        timeout /t 10 > nul
+                    )
+                    echo ❌ Kubernetes API server did not start in time.
+                    exit /b 1
+
+                    :ready
+                    echo ✅ API server is ready.
                 '''
             }
         }
 
-        stage('Load Image into Minikube') {
+        stage('Build Docker Image') {
             steps {
                 bat '''
-                echo Loading image into Minikube...
-                %MINIKUBE_PATH% image load %IMAGE_NAME%
+                    echo 🐳 Building Docker image...
+                    docker build -t roommate-recommender:latest .
                 '''
             }
         }
@@ -37,42 +48,30 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                echo 🔄 Ensuring Minikube is running...
-                "C:\\Program Files\\Minikube\\minikube.exe" status || "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
-
-                echo Minikube is running. Setting KUBECONFIG...
-                SET KUBECONFIG=C:\\WINDOWS\\system32\\config\\systemprofile\\.kube\\config
-
-                echo Switching to minikube context...
-                kubectl config use-context minikube
-
-                echo Verifying API server is reachable...
-                kubectl cluster-info
-
-                echo Applying Kubernetes manifests...
-                kubectl apply -f deployment.yaml --validate=false
-                kubectl apply -f service.yaml --validate=false
+                    echo 📦 Applying Kubernetes manifests...
+                    kubectl config use-context minikube
+                    kubectl apply -f deployment.yaml --validate=false
+                    kubectl apply -f service.yaml --validate=false
                 '''
             }
         }
 
-
         stage('Get App URL') {
             steps {
                 bat '''
-                echo Getting Minikube service URL...
-                %MINIKUBE_PATH% service roommate-recommender-service --url
+                    echo 🌐 Getting service URL...
+                    "C:\\Program Files\\Minikube\\minikube.exe" service roommate-recommender-service --url
                 '''
             }
         }
     }
 
     post {
-        success {
-            echo 'Deployment complete'
-        }
         failure {
-            echo 'Deployment failed'
+            echo '❌ Deployment failed'
+        }
+        success {
+            echo '✅ Deployment successful'
         }
     }
 }
