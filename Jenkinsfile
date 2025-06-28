@@ -88,12 +88,27 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for pod to be ready...
-                    FOR /F "delims=" %%i IN ('kubectl get pods -l app^=cohabgrid --field-selector=status.phase^=Running --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
+                    :: Wait for at least one pod to be created
+                    SET /A RETRIES=30
+                    :waitForPod
+                    FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
+                        SET FOUND=1
+                    )
+                    IF NOT DEFINED FOUND (
+                        echo 🔁 Pod not yet created. Retrying...
+                        timeout /t 3 >nul
+                        SET /A RETRIES-=1
+                        IF %RETRIES% GTR 0 GOTO waitForPod
+                        echo ❌ Timed out waiting for pod to appear.
+                        exit /b 1
+                    )
+
+                    :: Get the latest pod name (regardless of phase)
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l app^=cohabgrid --sort-by^=.metadata.creationTimestamp -o "jsonpath^={.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
-                        if ERRORLEVEL 1 (
-                            echo ❌ Pod did not start in time.
+                        IF ERRORLEVEL 1 (
+                            echo ❌ Pod did not become ready in time.
                             exit /b 1
                         )
                     )
