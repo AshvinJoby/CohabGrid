@@ -2,8 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // ✅ Point directly to Minikube's real kubeconfig
-        KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
+        KUBECONFIG = "${WORKSPACE}\\.kube\\config"
         PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
@@ -17,25 +16,13 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo 📦 Checking Minikube status...
                     minikube status
-                    IF %ERRORLEVEL% NEQ 0 (
-                        echo 🚀 Starting Minikube...
+                    IF errorlevel 1 (
+                        echo "Minikube not running, starting..."
                         minikube start --driver=docker
                     ) ELSE (
-                        echo ✅ Minikube already running
+                        echo "Minikube is running"
                     )
-                '''
-            }
-        }
-
-        stage('Debug Cluster Access') {
-            steps {
-                bat '''
-                    echo 🔍 Verifying Minikube and kubectl access...
-                    minikube status
-                    kubectl config current-context
-                    kubectl get nodes
                 '''
             }
         }
@@ -43,7 +30,7 @@ pipeline {
         stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for Kubernetes API server...
+                    echo 🕒 Waiting for Kubernetes API server...
 
                     set COUNT=0
                     :loop
@@ -58,17 +45,21 @@ pipeline {
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
                     set /a COUNT+=1
-                    timeout /t 5 >nul
+                    ping 127.0.0.1 -n 6 >nul
                     goto loop
                     :done
                 '''
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Build Docker Image (in Minikube)') {
             steps {
                 bat '''
-                    echo 🛠️ Building Docker image...
+                    echo 🛠️ Building Docker image inside Minikube...
+
+                    minikube docker-env --shell cmd > docker_env.bat
+                    call docker_env.bat
+
                     docker build -t cohabgrid-app .
                 '''
             }
@@ -86,7 +77,7 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for pod to be ready...
+                    echo 🕒 Waiting for Pod to be in Running state...
 
                     set COUNT=0
                     :wait_pod
@@ -101,7 +92,7 @@ pipeline {
                     )
                     echo ⏳ Waiting for pod... (%COUNT%/15)
                     set /a COUNT+=1
-                    timeout /t 5 >nul
+                    ping 127.0.0.1 -n 6 >nul
                     goto wait_pod
 
                     :showurl
