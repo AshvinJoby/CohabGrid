@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80          # Exposed service port
-      targetPort: 5000  # Your app’s internal container port
+      targetPort: 8501  # Your app’s internal container port
