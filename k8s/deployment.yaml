@@ -13,7 +13,15 @@ spec:
         app: cohabgrid
     spec:
       containers:
-      - name: cohabgrid
-        image: cohabgrid-app:latest
-        ports:
-        - containerPort: 80
+        - name: cohabgrid-container
+          image: cohabgrid-app
+          imagePullPolicy: IfNotPresent  # ⬅️ Important for local builds
+          ports:
+            - containerPort: 5000         # ⬅️ Replace with your app’s port
+          # Optional readiness probe (helps detect issues)
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 10

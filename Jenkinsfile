@@ -16,13 +16,17 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    minikube status
-                    IF errorlevel 1 (
-                        echo "Minikube not running, starting..."
+                    echo 🔍 Checking Minikube status...
+                    minikube status >nul 2>&1
+                    IF %ERRORLEVEL% NEQ 0 (
+                        echo 🚀 Starting Minikube...
                         minikube start --driver=docker
                     ) ELSE (
-                        echo "Minikube is running"
+                        echo ✅ Minikube already running
                     )
+
+                    echo ⚙️ Updating kubectl context to Minikube...
+                    minikube update-context
                 '''
             }
         }
@@ -30,9 +34,9 @@ pipeline {
         stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
-                    echo 🕒 Waiting for Kubernetes API server...
+                    echo ⏳ Waiting for Kubernetes API server...
 
-                    set COUNT=1
+                    set COUNT=0
                     :loop
                     kubectl get nodes >nul 2>&1
                     if %ERRORLEVEL% EQU 0 (
@@ -45,7 +49,7 @@ pipeline {
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
                     set /a COUNT+=1
-                    ping 127.0.0.1 -n 11 >nul
+                    timeout /t 5 >nul
                     goto loop
                     :done
                 '''
@@ -55,9 +59,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🛠️ Building Docker image inside Minikube...
-                    for /f "tokens=*" %%i in ('minikube docker-env --shell=cmd') do call %%i
-                    docker build -t cohabgrid-app:latest .
+                    echo 🛠️ Building Docker image...
+                    docker build -t cohabgrid-app .
                 '''
             }
         }
@@ -71,14 +74,14 @@ pipeline {
             }
         }
 
-        stage('Get App URL') {
+        stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    echo 🌐 Waiting for pod to be ready...
+                    echo 🕒 Waiting for pod to be in Running state...
 
                     set COUNT=0
                     :wait_pod
-                    kubectl get pods | findstr "cohabgrid" | findstr "Running"
+                    kubectl get pods | findstr "cohabgrid" | findstr "Running" >nul
                     if %ERRORLEVEL% EQU 0 (
                         echo ✅ Pod is running!
                         goto showurl
@@ -93,6 +96,14 @@ pipeline {
                     goto wait_pod
 
                     :showurl
+                '''
+            }
+        }
+
+        stage('Get App URL') {
+            steps {
+                bat '''
+                    echo 🌐 Getting app URL...
                     minikube service cohabgrid-service --url
                 '''
             }
