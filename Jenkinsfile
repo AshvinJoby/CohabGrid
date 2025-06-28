@@ -89,7 +89,7 @@ pipeline {
             steps {
                 bat '''
                     echo ⏳ Waiting for pod to be ready...
-                    FOR /F "delims=" %%i IN ('kubectl get pods -l app^=cohabgrid --field-selector=status.phase=Running --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l app^=cohabgrid --field-selector=status.phase^=Running --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
                         if ERRORLEVEL 1 (
