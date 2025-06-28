@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = "${WORKSPACE}/.kube/config"
+        // ✅ Point directly to Minikube's real kubeconfig
+        KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
         PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
@@ -16,13 +17,25 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
+                    echo 📦 Checking Minikube status...
                     minikube status
-                    IF errorlevel 1 (
-                        echo "Minikube not running, starting..."
+                    IF %ERRORLEVEL% NEQ 0 (
+                        echo 🚀 Starting Minikube...
                         minikube start --driver=docker
                     ) ELSE (
-                        echo "Minikube is running"
+                        echo ✅ Minikube already running
                     )
+                '''
+            }
+        }
+
+        stage('Debug Cluster Access') {
+            steps {
+                bat '''
+                    echo 🔍 Verifying Minikube and kubectl access...
+                    minikube status
+                    kubectl config current-context
+                    kubectl get nodes
                 '''
             }
         }
@@ -30,7 +43,7 @@ pipeline {
         stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
-                    echo 🕒 Waiting for Kubernetes API server...
+                    echo ⏳ Waiting for Kubernetes API server...
 
                     set COUNT=0
                     :loop
@@ -45,7 +58,7 @@ pipeline {
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
                     set /a COUNT+=1
-                    ping -n 6 127.0.0.1 >nul
+                    timeout /t 5 >nul
                     goto loop
                     :done
                 '''
@@ -73,7 +86,7 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for pod to be Running...
+                    echo ⏳ Waiting for pod to be ready...
 
                     set COUNT=0
                     :wait_pod
@@ -88,7 +101,7 @@ pipeline {
                     )
                     echo ⏳ Waiting for pod... (%COUNT%/15)
                     set /a COUNT+=1
-                    ping -n 6 127.0.0.1 >nul
+                    timeout /t 5 >nul
                     goto wait_pod
 
                     :showurl
