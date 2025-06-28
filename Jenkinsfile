@@ -21,7 +21,7 @@ pipeline {
                     minikube status
                     IF %ERRORLEVEL% NEQ 0 (
                         echo 🚀 Starting Minikube...
-                        minikube start --driver=docker --keep-context --embed-certs=true
+                        minikube start --driver=docker --embed-certs=true
                     ) ELSE (
                         echo ✅ Minikube already running
                     )
