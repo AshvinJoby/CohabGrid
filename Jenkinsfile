@@ -101,7 +101,7 @@ pipeline {
                     )
                     echo ⏳ Waiting for pod... (%COUNT%/15)
                     set /a COUNT+=1
-                    timeout /t 5 >nul
+                    ping 127.0.0.1 -n 6 >nul
                     goto wait_pod
 
                     :showurl
