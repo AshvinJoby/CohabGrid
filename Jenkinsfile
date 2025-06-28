@@ -2,23 +2,24 @@ pipeline {
     agent any
 
     environment {
-        MINIKUBE_PATH = '"C:\\Program Files\\Minikube\\minikube.exe"'
-        KUBECTL_PATH = '"C:\\Program Files\\Kubernetes\\kubectl.exe"'
+        KUBECONFIG = "${WORKSPACE}/.kube/config"
+        PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo ✅ Checking Minikube status...
-                    %MINIKUBE_PATH% status
-                    if errorlevel 1 (
-                        echo 🔄 Restarting Minikube...
-                        %MINIKUBE_PATH% delete
-                        %MINIKUBE_PATH% start --driver=docker
-                    ) else (
-                        echo 🚀 Minikube already running.
-                    )
+                    echo 🔄 Forcing Minikube restart with Docker driver...
+                    minikube config set driver docker
+                    minikube delete
+                    minikube start --driver=docker
                 '''
             }
         }
@@ -30,7 +31,7 @@ pipeline {
 
                     set COUNT=0
                     :loop
-                    %KUBECTL_PATH% get nodes >nul 2>&1
+                    kubectl get nodes >nul 2>&1
                     if %ERRORLEVEL% EQU 0 (
                         echo ✅ Kubernetes API server is ready!
                         goto done
@@ -40,8 +41,8 @@ pipeline {
                         exit /b 1
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
-                    ping -n 11 127.0.0.1 >nul
                     set /a COUNT+=1
+                    ping 127.0.0.1 -n 11 >nul
                     goto loop
                     :done
                 '''
@@ -51,8 +52,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🐳 Building Docker image...
-                    docker build -t myapp-image .
+                    echo 🛠️ Building Docker image...
+                    docker build -t cohabgrid-app .
                 '''
             }
         }
@@ -60,9 +61,8 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                    echo 🚀 Deploying to Kubernetes...
-                    %KUBECTL_PATH% apply -f deployment.yaml
-                    %KUBECTL_PATH% apply -f service.yaml
+                    echo 📦 Deploying to Kubernetes...
+                    kubectl apply -f k8s/
                 '''
             }
         }
@@ -70,8 +70,8 @@ pipeline {
         stage('Get App URL') {
             steps {
                 bat '''
-                    echo 🌐 Getting service URL...
-                    %MINIKUBE_PATH% service myapp-service --url
+                    echo 🌐 Getting app URL...
+                    minikube service cohabgrid-service --url
                 '''
             }
         }
