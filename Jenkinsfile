@@ -25,23 +25,23 @@ pipeline {
 
         stage('Wait for Kubernetes API Server') {
             steps {
-                bat '''
-                    echo 🕒 Waiting for Kubernetes API server...
-                    set COUNT=0
-                    :retry
-                    %KUBECTL_PATH% get nodes >nul 2>&1
-                    if %errorlevel%==0 (
-                        echo ✅ Kubernetes API server is ready!
-                    ) else (
-                        if %COUNT% GEQ 15 (
-                            echo ❌ Kubernetes API server did not start in time.
-                            exit /b 1
-                        )
-                        echo Waiting 10 seconds...
-                        timeout /t 10 >nul
-                        set /a COUNT+=1
-                        goto retry
-                    )
+                powershell '''
+                    Write-Host "🕒 Waiting for Kubernetes API server..."
+                    $maxRetries = 15
+                    $count = 0
+                    while ($count -lt $maxRetries) {
+                        kubectl get nodes > $null 2>&1
+                        if ($LASTEXITCODE -eq 0) {
+                            Write-Host "✅ Kubernetes API server is ready!"
+                            exit 0
+                        } else {
+                            Write-Host "⏳ Still waiting... ($count/$maxRetries)"
+                            Start-Sleep -Seconds 10
+                            $count++
+                        }
+                    }
+                    Write-Host "❌ Kubernetes API server did not start in time."
+                    exit 1
                 '''
             }
         }
