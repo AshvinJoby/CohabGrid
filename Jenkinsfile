@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = "${WORKSPACE}\\.kube\\config"
+        KUBECONFIG = "${env.USERPROFILE}\\.kube\\config"
         PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
