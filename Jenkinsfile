@@ -10,9 +10,13 @@ pipeline {
             steps {
                 bat '''
                     echo ✅ Starting Minikube...
-                    "C:\\Program Files\\Minikube\\minikube.exe" status || (
-                        "C:\\Program Files\\Minikube\\minikube.exe" delete &&
+                    "C:\\Program Files\\Minikube\\minikube.exe" status
+                    if errorlevel 1 (
+                        echo 🔄 Restarting Minikube...
+                        "C:\\Program Files\\Minikube\\minikube.exe" delete
                         "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
+                    ) else (
+                        echo 🚀 Minikube already running.
                     )
                 '''
             }
