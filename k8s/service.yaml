@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: cohabgrid-service
 spec:
-  type: NodePort  # Needed for `minikube service` to expose URL
   selector:
     app: cohabgrid
+  type: NodePort
   ports:
     - protocol: TCP
-      port: 80          # Exposed service port
-      targetPort: 8501  # Your app’s internal container port
+      port: 80
+      targetPort: 8501
