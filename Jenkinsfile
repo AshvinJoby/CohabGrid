@@ -106,7 +106,9 @@ pipeline {
             steps {
                 bat '''
                     echo 🌐 Getting app URL...
-                    minikube service cohabgrid-service --url
+                    FOR /F %%i IN ('kubectl get svc cohabgrid-service -o jsonpath^="{.spec.ports[0].nodePort}"') DO (
+                        echo ✅ App is available at: http://127.0.0.1:%%i
+                    )
                 '''
             }
         }
