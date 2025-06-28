@@ -90,7 +90,7 @@ pipeline {
 
                     set COUNT=0
                     :wait_pod
-                    kubectl get pods | findstr "cohabgrid" | findstr "Running" >nul
+                    kubectl get pods --no-headers | findstr "cohabgrid" | findstr "1/1"
                     if %ERRORLEVEL% EQU 0 (
                         echo ✅ Pod is running!
                         goto showurl
