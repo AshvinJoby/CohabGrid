@@ -62,8 +62,7 @@ pipeline {
             steps {
                 bat '''
                     echo 📦 Deploying to Kubernetes...
-                    kubectl apply -f deployment.yaml
-                    kubectl apply -f service.yaml
+                    kubectl apply -f k8s/
                 '''
             }
         }
