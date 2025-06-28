@@ -2,46 +2,61 @@ pipeline {
     agent any
 
     environment {
-        MINIKUBE_PATH = '"C:\\Program Files\\Minikube\\minikube.exe"'
-        KUBECTL_PATH = '"C:\\Program Files\\Kubernetes\\kubectl.exe"'
+        KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
+        PATH = "C:\\Program Files\\Kubernetes;C:\\Program Files\\Docker;C:\\Program Files\\Minikube;${env.PATH}"
     }
 
     stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo ✅ Checking Minikube status...
-                    %MINIKUBE_PATH% status
-                    if errorlevel 1 (
-                        echo 🔄 Restarting Minikube...
-                        %MINIKUBE_PATH% delete
-                        %MINIKUBE_PATH% start --driver=docker
-                    ) else (
-                        echo 🚀 Minikube already running.
-                    )
+                echo ✅ Checking Minikube status...
+                "C:\\Program Files\\Minikube\\minikube.exe" status
+                if errorlevel 1 (
+                    echo 🔄 Restarting Minikube...
+                    "C:\\Program Files\\Minikube\\minikube.exe" delete
+                    "C:\\Program Files\\Minikube\\minikube.exe" start --driver=docker
+                ) else (
+                    echo 🚀 Minikube already running.
+                )
+                '''
+            }
+        }
+
+        stage('Inject Minikube Env') {
+            steps {
+                bat '''
+                echo 🌐 Setting Minikube Docker environment for Jenkins shell
+                for /f "tokens=*" %%i in ('"C:\\Program Files\\Minikube\\minikube.exe" -p minikube docker-env --shell cmd') do call %%i
                 '''
             }
         }
 
         stage('Wait for Kubernetes API Server') {
             steps {
-                powershell '''
-                    Write-Host "🕒 Waiting for Kubernetes API server..."
-                    $maxRetries = 15
-                    $count = 0
-                    while ($count -lt $maxRetries) {
-                        kubectl get nodes > $null 2>&1
-                        if ($LASTEXITCODE -eq 0) {
-                            Write-Host "✅ Kubernetes API server is ready!"
-                            exit 0
-                        } else {
-                            Write-Host "⏳ Still waiting... ($count/$maxRetries)"
-                            Start-Sleep -Seconds 10
-                            $count++
-                        }
-                    }
-                    Write-Host "❌ Kubernetes API server did not start in time."
-                    exit 1
+                bat '''
+                echo 🕒 Waiting for Kubernetes API server...
+                set COUNT=0
+                :retry
+                kubectl get nodes > nul 2>&1
+                if %errorlevel%==0 (
+                    echo ✅ Kubernetes API server is ready!
+                ) else (
+                    if %COUNT% GEQ 15 (
+                        echo ❌ Kubernetes API server did not start in time.
+                        exit /b 1
+                    )
+                    echo ⏳ Still waiting... (%COUNT%/15)
+                    timeout /t 10 > nul
+                    set /a COUNT+=1
+                    goto retry
+                )
                 '''
             }
         }
@@ -49,8 +64,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🐳 Building Docker image...
-                    docker build -t myapp-image .
+                echo 🛠️ Building Docker image...
+                docker build -t cohabgrid-app .
                 '''
             }
         }
@@ -58,9 +73,8 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                    echo 🚀 Deploying to Kubernetes...
-                    %KUBECTL_PATH% apply -f k8s/deployment.yaml
-                    %KUBECTL_PATH% apply -f k8s/service.yaml
+                echo 📦 Deploying to Kubernetes...
+                kubectl apply -f k8s/
                 '''
             }
         }
@@ -68,8 +82,8 @@ pipeline {
         stage('Get App URL') {
             steps {
                 bat '''
-                    echo 🌐 Getting service URL...
-                    %MINIKUBE_PATH% service myapp-service --url
+                echo 🌐 Fetching app service URL...
+                "C:\\Program Files\\Minikube\\minikube.exe" service cohabgrid-service --url
                 '''
             }
         }
@@ -78,6 +92,9 @@ pipeline {
     post {
         failure {
             echo '❌ Deployment failed'
+        }
+        success {
+            echo '✅ Deployment succeeded'
         }
     }
 }
