@@ -24,6 +24,7 @@ spec:
               path: /
               port: 8501
             initialDelaySeconds: 10
-            periodSeconds: 10
             timeoutSeconds: 2
-            failureThreshold: 3
+            periodSeconds: 5
+            successThreshold: 1
+            failureThreshold: 5
