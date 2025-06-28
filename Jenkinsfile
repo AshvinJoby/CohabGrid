@@ -21,7 +21,7 @@ pipeline {
                     minikube status
                     IF %ERRORLEVEL% NEQ 0 (
                         echo 🚀 Starting Minikube...
-                        minikube start --driver=docker
+                        minikube start --driver=docker --keep-context --embed-certs
                     ) ELSE (
                         echo ✅ Minikube already running
                     )
@@ -89,7 +89,7 @@ pipeline {
             steps {
                 bat '''
                     echo ⏳ Waiting for pod to be ready...
-                    FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --field-selector=status.phase=Running -o jsonpath="{.items[0].metadata.name}"') DO (
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o jsonpath="{.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
                     )
