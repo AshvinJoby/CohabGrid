@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: roommate-recommender
+  name: cohabgrid-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: roommate-recommender
+      app: cohabgrid
   template:
     metadata:
       labels:
-        app: roommate-recommender
+        app: cohabgrid
     spec:
       containers:
-      - name: streamlit
-        image: roommate-recommender:latest 
-        imagePullPolicy: IfNotPresent
+      - name: cohabgrid
+        image: cohabgrid-app:latest
         ports:
-        - containerPort: 8501
+        - containerPort: 80

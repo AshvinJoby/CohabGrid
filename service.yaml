@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: roommate-service
+  name: cohabgrid-service
 spec:
   selector:
-    app: roommate-recommender
+    app: cohabgrid
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 8501
+  - protocol: TCP
+    port: 80
+    targetPort: 80
   type: NodePort
