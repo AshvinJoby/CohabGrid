@@ -92,11 +92,12 @@ pipeline {
                     FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o jsonpath="{.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
+                        if %ERRORLEVEL% NEQ 0 (
+                            echo ❌ Pod did not start in time.
+                            exit /b 1
+                        )
                     )
-                    if %ERRORLEVEL% NEQ 0 (
-                        echo ❌ Pod did not start in time.
-                        exit /b 1
-                    )
+                    
                 '''
             }
         }
