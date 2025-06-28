@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cohabgrid-service
+  labels:
+    app: cohabgrid
 spec:
   selector:
     app: cohabgrid
@@ -10,3 +12,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8501
+      nodePort: 30080

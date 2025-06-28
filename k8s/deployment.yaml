@@ -21,7 +21,7 @@ spec:
           httpGet:
             path: /
             port: 8501
-          initialDelaySeconds: 20
-          timeoutSeconds: 5
-          periodSeconds: 10
-          failureThreshold: 10
+          initialDelaySeconds: 30
+          timeoutSeconds: 3
+          periodSeconds: 5
+          failureThreshold: 6
