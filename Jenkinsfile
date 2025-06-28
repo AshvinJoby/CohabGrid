@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = "${WORKSPACE}\\.kube\\config"
+        KUBECONFIG = "${WORKSPACE}/.kube/config"
         PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
@@ -16,17 +16,13 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo 🔍 Checking Minikube status...
-                    minikube status >nul 2>&1
-                    IF %ERRORLEVEL% NEQ 0 (
-                        echo 🚀 Starting Minikube...
+                    minikube status
+                    IF errorlevel 1 (
+                        echo "Minikube not running, starting..."
                         minikube start --driver=docker
                     ) ELSE (
-                        echo ✅ Minikube already running
+                        echo "Minikube is running"
                     )
-
-                    echo ⚙️ Updating kubectl context to Minikube...
-                    minikube update-context
                 '''
             }
         }
@@ -34,7 +30,7 @@ pipeline {
         stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for Kubernetes API server...
+                    echo 🕒 Waiting for Kubernetes API server...
 
                     set COUNT=0
                     :loop
@@ -49,7 +45,7 @@ pipeline {
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
                     set /a COUNT+=1
-                    timeout /t 5 >nul
+                    ping -n 6 127.0.0.1 >nul
                     goto loop
                     :done
                 '''
@@ -77,7 +73,7 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    echo 🕒 Waiting for pod to be in Running state...
+                    echo ⏳ Waiting for pod to be Running...
 
                     set COUNT=0
                     :wait_pod
@@ -92,7 +88,7 @@ pipeline {
                     )
                     echo ⏳ Waiting for pod... (%COUNT%/15)
                     set /a COUNT+=1
-                    timeout /t 5 >nul
+                    ping -n 6 127.0.0.1 >nul
                     goto wait_pod
 
                     :showurl
