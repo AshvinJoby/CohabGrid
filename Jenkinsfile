@@ -27,21 +27,23 @@ pipeline {
             steps {
                 bat '''
                     echo 🕒 Waiting for Kubernetes API server...
+
                     set COUNT=0
-                    :retry
+                    :loop
                     %KUBECTL_PATH% get nodes >nul 2>&1
-                    if %errorlevel%==0 (
+                    if %ERRORLEVEL% EQU 0 (
                         echo ✅ Kubernetes API server is ready!
-                    ) else (
-                        if %COUNT% GEQ 15 (
-                            echo ❌ Kubernetes API server did not start in time.
-                            exit /b 1
-                        )
-                        echo Waiting 10 seconds...
-                        timeout /t 10 >nul
-                        set /a COUNT+=1
-                        goto retry
+                        goto done
                     )
+                    if %COUNT% GEQ 15 (
+                        echo ❌ Kubernetes API server did not start in time.
+                        exit /b 1
+                    )
+                    echo ⏳ Still waiting... (%COUNT%/15)
+                    timeout /t 10 /nobreak >nul
+                    set /a COUNT+=1
+                    goto loop
+                    :done
                 '''
             }
         }
