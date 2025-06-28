@@ -69,6 +69,7 @@ pipeline {
             steps {
                 bat '''
                     echo 🛠️ Building Docker image...
+                    for /f "delims=" %%i in ('minikube docker-env --shell cmd ^| findstr "DOCKER_HOST"') do set %%i
                     docker build -t cohabgrid-app .
                 '''
             }
