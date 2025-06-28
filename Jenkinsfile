@@ -40,7 +40,7 @@ pipeline {
                         exit /b 1
                     )
                     echo ⏳ Still waiting... (%COUNT%/15)
-                    timeout /t 10 /nobreak >nul
+                    ping -n 11 127.0.0.1 >nul
                     set /a COUNT+=1
                     goto loop
                     :done
