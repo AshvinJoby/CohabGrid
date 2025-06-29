@@ -19,8 +19,6 @@ spec:
         ports:
         - containerPort: 8501
         readinessProbe:
-          tcpSocket:
-            port: 8501
           httpGet:
             path: /
             port: 8501
