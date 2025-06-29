@@ -2,11 +2,9 @@ pipeline {
     agent any
 
     environment {
-        // Kubeconfig path for Jenkins user
+        // ✅ Point directly to Minikube's real kubeconfig
         KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
-
-        // Add Docker, Minikube, and kubectl to PATH
-        PATH = "${env.PATH};C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
+        PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
     stages {
@@ -70,17 +68,10 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🛠️ Updating PATH for Docker...
-                    set PATH=%PATH%;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker
-
-                    echo 🛠️ Switching to Minikube Docker daemon...
-                    for /f "tokens=*" %%i in ('minikube -p minikube docker-env --shell=cmd') do call %%i
-
-                    echo 🛠️ Verifying Docker context...
-                    docker info
-
-                    echo 🛠️ Building Docker image inside Minikube...
+                    echo 🛠️ Building Docker image...
                     docker build -t cohabgrid-app .
+                    echo ♻️ Loading Docker image into Minikube...
+                    minikube image load cohabgrid-app
                 '''
             }
         }
@@ -97,11 +88,9 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
+                    :: Wait for at least one pod to be created
                     SET /A RETRIES=30
-
-                    :: Wait for pod creation
                     :waitForPod
-                    SET FOUND=
                     FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
                         SET FOUND=1
                     )
@@ -114,7 +103,7 @@ pipeline {
                         exit /b 1
                     )
 
-                    :: Wait for pod to become ready
+                    :: Get the latest pod name (regardless of phase)
                     FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
@@ -123,6 +112,7 @@ pipeline {
                             exit /b 1
                         )
                     )
+                    
                 '''
             }
         }
