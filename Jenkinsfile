@@ -68,10 +68,12 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🛠️ Building Docker image...
+                    echo 🛠️ Switching to Minikube Docker daemon...
+                    call minikube -p minikube docker-env --shell=cmd > minikube-docker-env.cmd
+                    call minikube-docker-env.cmd
+
+                    echo 🛠️ Building Docker image inside Minikube...
                     docker build -t cohabgrid-app .
-                    echo ♻️ Loading Docker image into Minikube...
-                    minikube image load cohabgrid-app
                 '''
             }
         }
