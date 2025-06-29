@@ -15,7 +15,7 @@ IF %ERRORLEVEL% NEQ 0 (
 del podlist.txt
 
 :: Use PowerShell to extract pod name
-FOR /F "usebackq delims=" %%i IN (`powershell -Command "kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o 'jsonpath={.items[-1].metadata.name}'"`) DO (
+FOR /F "usebackq delims=" %%i IN (`"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -Command "kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o 'jsonpath={.items[-1].metadata.name}'"`) DO (
     echo 🔍 Waiting on pod: %%i
     kubectl wait --for=condition=ready pod %%i --timeout=90s
     IF ERRORLEVEL 1 (
