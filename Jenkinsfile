@@ -10,6 +10,56 @@ pipeline {
     }
 
     stages {
+        stage('Start Minikube') {More actions
+            steps {
+                bat '''
+                    echo 📦 Checking Minikube status...
+                    minikube status
+                    IF %ERRORLEVEL% NEQ 0 (
+                        echo 🚀 Starting Minikube...
+                        minikube start --driver=docker --keep-context --embed-certs
+                    ) ELSE (
+                        echo ✅ Minikube already running
+                    )
+                '''
+            }
+        }
+
+        stage('Debug Cluster Access') {
+            steps {
+                bat '''
+                    echo 🔍 Verifying Minikube and kubectl access...
+                    minikube status
+                    kubectl config current-context
+                    kubectl get nodes
+                '''
+            }
+        }
+
+        stage('Wait for Kubernetes API Server') {
+            steps {
+                bat '''
+                    echo ⏳ Waiting for Kubernetes API server...
+
+                    set COUNT=0
+                    :loop
+                    kubectl get nodes >nul 2>&1
+                    if %ERRORLEVEL% EQU 0 (
+                        echo ✅ Kubernetes API server is ready!
+                        goto done
+                    )
+                    if %COUNT% GEQ 15 (
+                        echo ❌ Kubernetes API server did not start in time.
+                        exit /b 1
+                    )
+                    echo ⏳ Still waiting... (%COUNT%/15)
+                    set /a COUNT+=1
+                    timeout /t 5 >nul
+                    goto loop
+                    :done
+                '''
+            }
+        }
         stage('Build Docker Image') {
             steps {
                 bat 'docker build -t %IMAGE_NAME% .'
