@@ -2,9 +2,11 @@ pipeline {
     agent any
 
     environment {
-        // ✅ Point directly to Minikube's real kubeconfig
+        // Point to your actual kubeconfig file
         KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
-        PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
+
+        // Add Docker, Minikube, and kubectl to PATH
+        PATH = "${env.PATH};C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
     stages {
@@ -72,6 +74,12 @@ pipeline {
                     call minikube -p minikube docker-env --shell=cmd > minikube-docker-env.cmd
                     call minikube-docker-env.cmd
 
+                    echo 🛠️ Updating PATH to include Docker...
+                    set PATH=%PATH%;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker
+
+                    echo 🛠️ Checking Docker version...
+                    docker version
+
                     echo 🛠️ Building Docker image inside Minikube...
                     docker build -t cohabgrid-app .
                 '''
@@ -90,9 +98,11 @@ pipeline {
         stage('Wait for Pod to Run') {
             steps {
                 bat '''
-                    :: Wait for at least one pod to be created
                     SET /A RETRIES=30
+
+                    :: Wait for pod creation
                     :waitForPod
+                    SET FOUND=
                     FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
                         SET FOUND=1
                     )
@@ -105,7 +115,7 @@ pipeline {
                         exit /b 1
                     )
 
-                    :: Get the latest pod name (regardless of phase)
+                    :: Wait for pod to become ready
                     FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
@@ -114,7 +124,6 @@ pipeline {
                             exit /b 1
                         )
                     )
-                    
                 '''
             }
         }
