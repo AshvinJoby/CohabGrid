@@ -16,13 +16,13 @@ pipeline {
         stage('Start Minikube') {
             steps {
                 bat '''
-                    echo 📦 Checking Minikube status...
+                    echo Checking Minikube status...
                     minikube status
                     IF %ERRORLEVEL% NEQ 0 (
-                        echo 🚀 Starting Minikube...
+                        echo Starting Minikube...
                         minikube start --driver=docker --embed-certs=true
                     ) ELSE (
-                        echo ✅ Minikube already running
+                        echo Minikube already running.
                     )
                 '''
             }
@@ -31,7 +31,7 @@ pipeline {
         stage('Debug Cluster Access') {
             steps {
                 bat '''
-                    echo 🔍 Verifying Minikube and kubectl access...
+                    echo Verifying Minikube and kubectl access...
                     minikube status
                     kubectl config current-context
                     kubectl get nodes
@@ -42,20 +42,20 @@ pipeline {
         stage('Wait for Kubernetes API Server') {
             steps {
                 bat '''
-                    echo ⏳ Waiting for Kubernetes API server...
+                    echo Waiting for Kubernetes API server...
 
                     set COUNT=0
                     :loop
                     kubectl get nodes >nul 2>&1
                     if %ERRORLEVEL% EQU 0 (
-                        echo ✅ Kubernetes API server is ready!
+                        echo Kubernetes API server is ready!
                         goto done
                     )
                     if %COUNT% GEQ 15 (
-                        echo ❌ Kubernetes API server did not start in time.
+                        echo Kubernetes API server did not start in time.
                         exit /b 1
                     )
-                    echo ⏳ Still waiting... (%COUNT%/15)
+                    echo Still waiting... (%COUNT%/15)
                     set /a COUNT+=1
                     timeout /t 5 >nul
                     goto loop
@@ -67,7 +67,7 @@ pipeline {
         stage('Build Docker Image inside Minikube') {
             steps {
                 bat '''
-                    echo 🛠️ Setting Minikube Docker daemon environment...
+                    echo Setting Minikube Docker daemon environment...
 
                     :: You can also dynamically extract these using:
                     :: minikube -p minikube docker-env --shell=cmd
@@ -78,10 +78,10 @@ pipeline {
                     set MINIKUBE_ACTIVE_DOCKERD=minikube
                     set PATH=%PATH%;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker
 
-                    echo 🛠️ Confirming Docker info:
+                    echo Confirming Docker info:
                     docker info
 
-                    echo 🛠️ Building image:
+                    echo Building image:
                     docker build -t cohabgrid-app .
                 '''
             }
@@ -90,7 +90,7 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 bat '''
-                    echo 📦 Deploying app to Kubernetes...
+                    echo Deploying app to Kubernetes...
                     kubectl apply -f k8s/
                 '''
             }
@@ -105,7 +105,7 @@ pipeline {
         stage('Get App URL') {
             steps {
                 bat '''
-                    echo 🌐 Getting app URL...
+                    echo Getting app URL...
                     FOR /F %%i IN ('kubectl get svc cohabgrid-service -o jsonpath^="{.spec.ports[0].nodePort}"') DO (
                         echo ✅ App is available at: http://127.0.0.1:%%i
                     )
