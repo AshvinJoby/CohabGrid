@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // Point to your actual kubeconfig file
+        // Kubeconfig path for Jenkins user
         KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
 
         // Add Docker, Minikube, and kubectl to PATH
@@ -70,15 +70,14 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 bat '''
-                    echo 🛠️ Switching to Minikube Docker daemon...
-                    call minikube -p minikube docker-env --shell=cmd > minikube-docker-env.cmd
-                    call minikube-docker-env.cmd
-
-                    echo 🛠️ Updating PATH to include Docker...
+                    echo 🛠️ Updating PATH for Docker...
                     set PATH=%PATH%;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker
 
-                    echo 🛠️ Checking Docker version...
-                    docker version
+                    echo 🛠️ Switching to Minikube Docker daemon...
+                    for /f "tokens=*" %%i in ('minikube -p minikube docker-env --shell=cmd') do call %%i
+
+                    echo 🛠️ Verifying Docker context...
+                    docker info
 
                     echo 🛠️ Building Docker image inside Minikube...
                     docker build -t cohabgrid-app .
