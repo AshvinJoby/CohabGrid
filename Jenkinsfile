@@ -91,7 +91,7 @@ pipeline {
                     :: Wait for at least one pod to be created
                     SET /A RETRIES=30
                     :waitForPod
-                    FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
+                    FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app^=cohabgrid --no-headers`) DO (
                         SET FOUND=1
                     )
                     IF NOT DEFINED FOUND (
@@ -104,7 +104,7 @@ pipeline {
                     )
 
                     :: Get the latest pod name (regardless of phase)
-                    FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l app^=cohabgrid --sort-by^=.metadata.creationTimestamp -o "jsonpath^={.items[-1].metadata.name}"') DO (
                         echo 🔍 Waiting on pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
                         IF ERRORLEVEL 1 (
