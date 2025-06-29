@@ -26,3 +26,11 @@ spec:
           timeoutSeconds: 5
           periodSeconds: 15
           failureThreshold: 6
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8501
+          initialDelaySeconds: 60
+          timeoutSeconds: 5
+          periodSeconds: 30
+          failureThreshold: 5
