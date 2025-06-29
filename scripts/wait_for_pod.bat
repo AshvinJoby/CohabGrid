@@ -2,13 +2,9 @@
 SET RETRIES=30
 
 :waitForPod
-SET FOUND=
-
-FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
-    SET FOUND=1
-)
-
-IF NOT DEFINED FOUND (
+kubectl get pods -l app=cohabgrid --no-headers > podlist.txt 2>nul
+findstr /R "." podlist.txt >nul
+IF %ERRORLEVEL% NEQ 0 (
     echo 🔁 Pod not yet created. Retrying...
     ping 127.0.0.1 -n 4 >nul
     SET /A RETRIES-=1
@@ -16,8 +12,10 @@ IF NOT DEFINED FOUND (
     echo ❌ Timed out waiting for pod to appear.
     exit /b 1
 )
+del podlist.txt
 
-FOR /F "delims=" %%i IN (`kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o jsonpath={.items[-1].metadata.name}`) DO (
+:: Use PowerShell to preserve proper quoting!
+for /f "usebackq delims=" %%i in (`powershell -Command "kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o 'jsonpath={.items[-1].metadata.name}'"`) do (
     echo 🔍 Waiting on pod: %%i
     kubectl wait --for=condition=ready pod %%i --timeout=90s
     IF ERRORLEVEL 1 (
