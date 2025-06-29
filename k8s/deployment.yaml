@@ -15,6 +15,7 @@ spec:
       containers:
       - name: cohabgrid-container
         image: cohabgrid-app
+        imagePullPolicy: IfNotPresent   # ✅ Add this line
         ports:
         - containerPort: 8501
         readinessProbe:
