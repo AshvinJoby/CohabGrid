@@ -1,27 +1,23 @@
-pipeline {
+pipeline {More actions
     agent any
 
     environment {
-        // ✅ Point directly to Minikube's real kubeconfig
-        KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
-        PATH = "${env.PATH};C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
+        IMAGE_NAME = 'cohabgrid-app'
+        DEPLOYMENT_NAME = 'cohabgrid-deployment'
+        SERVICE_NAME = 'cohabgrid-service'
+        APP_LABEL = 'cohabgrid'
+        APP_PORT = '8501'
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
-        stage('Start Minikube') {
+        stage('Start Minikube') {More actions
             steps {
                 bat '''
                     echo 📦 Checking Minikube status...
                     minikube status
                     IF %ERRORLEVEL% NEQ 0 (
                         echo 🚀 Starting Minikube...
-                        minikube start --driver=docker --embed-certs=true
+                        minikube start --driver=docker --keep-context --embed-certs
                     ) ELSE (
                         echo ✅ Minikube already running
                     )
@@ -64,65 +60,62 @@ pipeline {
                 '''
             }
         }
-
         stage('Build Docker Image') {
             steps {
-                bat '''
-                    echo 🛠️ Building Docker image...
-                    docker build -t cohabgrid-app .
-                    echo ♻️ Loading Docker image into Minikube...
-                    minikube image load cohabgrid-app
-                '''
+                bat 'docker build -t %IMAGE_NAME% .'
             }
         }
 
-        stage('Deploy to Kubernetes') {
+        stage('Load Image into Minikube') {
+            steps {
+                bat 'minikube image load %IMAGE_NAME%'
+            }
+        }
+
+        stage('Apply K8s Manifests') {
             steps {
                 bat '''
-                    echo 📦 Deploying to Kubernetes...
                     kubectl apply -f k8s/
+                    kubectl rollout restart deployment %DEPLOYMENT_NAME%
                 '''
             }
         }
 
-        stage('Wait for Pod to Run') {
+        stage('Wait for Pod to be Ready') {
             steps {
                 bat '''
-                    :: Wait for at least one pod to be created
-                    SET /A RETRIES=30
-                    :waitForPod
-                    FOR /F "tokens=* USEBACKQ" %%i IN (`kubectl get pods -l app=cohabgrid --no-headers`) DO (
+                    echo ⏳ Waiting for pod to be ready...
+                    SET RETRIES=30
+                    SET FOUND=
+:waitLoop
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l "app=%APP_LABEL%" --field-selector=status.phase=Running --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
                         SET FOUND=1
-                    )
-                    IF NOT DEFINED FOUND (
-                        echo 🔁 Pod not yet created. Retrying...
-                        timeout /t 3 >nul
-                        SET /A RETRIES-=1
-                        IF %RETRIES% GTR 0 GOTO waitForPod
-                        echo ❌ Timed out waiting for pod to appear.
-                        exit /b 1
-                    )
-
-                    :: Get the latest pod name (regardless of phase)
-                    FOR /F "delims=" %%i IN ('kubectl get pods -l app=cohabgrid --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
-                        echo 🔍 Waiting on pod: %%i
+                        SET POD_NAME=%%i
+                        echo 🔍 Found pod: %%i
                         kubectl wait --for=condition=ready pod %%i --timeout=90s
                         IF ERRORLEVEL 1 (
                             echo ❌ Pod did not become ready in time.
                             exit /b 1
                         )
                     )
-                    
+                    IF NOT DEFINED FOUND (
+                        echo 🔁 Pod not yet created. Retrying...
+                        timeout /t 3 >nul
+                        SET /A RETRIES-=1
+                        IF %RETRIES% GTR 0 GOTO waitLoop
+                        echo ❌ Timed out waiting for pod to appear.
+                        exit /b 1
+                    )
                 '''
             }
         }
 
-        stage('Get App URL') {
+        stage('Port Forward App') {
             steps {
                 bat '''
-                    echo 🌐 Getting app URL...
-                    FOR /F %%i IN ('kubectl get svc cohabgrid-service -o jsonpath^="{.spec.ports[0].nodePort}"') DO (
-                        echo ✅ App is available at: http://127.0.0.1:%%i
+                    FOR /F "delims=" %%i IN ('kubectl get pods -l "app=%APP_LABEL%" --field-selector=status.phase=Running --sort-by=.metadata.creationTimestamp -o "jsonpath={.items[-1].metadata.name}"') DO (
+                        echo 🌐 Access your app at: http://localhost:%APP_PORT%
+                        start "" cmd /c kubectl port-forward pod/%%i %APP_PORT%:%APP_PORT%
                     )
                 '''
             }
