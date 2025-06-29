@@ -10,7 +10,7 @@ pipeline {
     }
 
     stages {
-        stage('Start Minikube') {More actions
+        stage('Start Minikube') {
             steps {
                 bat '''
                     echo 📦 Checking Minikube status...
