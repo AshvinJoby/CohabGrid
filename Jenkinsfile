@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         KUBECONFIG = "C:\\Users\\ashvin\\.kube\\config"
+        DOCKER_HOST = 'npipe:////./pipe/docker_engine'
         PATH = "${env.PATH};C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Docker;C:\\Program Files\\Minikube;C:\\Program Files\\Kubernetes"
     }
 
